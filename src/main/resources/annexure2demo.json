@@ -1,0 +1,34 @@
+ {
+      "id": 0,
+      "dateTime": "2025-07-29T05:16:15.372Z",
+      "workDescription": "Some Work",
+      "plantLocation": "Pune",
+      "acceptorName": "Acceptor Gr8",
+      "contractorName": "Contract",
+      "attendantName": "Attent",
+      "attendantDateTime": "2025-07-29T05:16:15.372Z",
+      "sign": "string",
+      "annexure2CheckPointsList": [
+        {
+          "id": 0,
+          "nameOfPerson": "ABC",
+          "empNo": "1",
+          "inTime": "9:30",
+          "signOfPerson": "string",
+          "outTime": "6:30",
+          "signOffTime": "string",
+          "attendantSign": "string"
+        },
+
+        {
+          "id": 0,
+          "nameOfPerson": "XYZ",
+          "empNo": "2",
+          "inTime": "9:45",
+          "signOfPerson": "string",
+          "outTime": "6:15",
+          "signOffTime": "string",
+          "attendantSign": "string"
+        }
+      ]
+    }
