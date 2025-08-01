@@ -1,0 +1,34 @@
+ {
+      "id": 0,
+      "location": "SomeWhere!",
+      "dateTime": "2025-07-29T05:16:15.372Z",
+      "contractorName": "SomeThing",
+      "recommendation": "Not YET !",
+      "weldingMachineCertifiedBySuperVisor": {
+        "id": 0,
+        "certifiedBy": "Supervisor",
+        "name": "Name One",
+        "dateTime": "2025-07-29T05:16:15.372Z",
+        "signature": "string"
+      },
+      "weldingMachineCertifiedByEngineer": {
+        "id": 0,
+        "certifiedBy": "string",
+        "name": "Enginner One",
+        "dateTime": "2025-07-29T05:16:15.372Z",
+        "signature": "string"
+      },
+      "weldingMachineList": [
+        {
+          "id": 0,
+          "checkListText": "string",
+          "status": "OK"
+        },
+        {
+         "id": 0,
+          "checkListText": "string",
+          "status": "Not OK"
+          }
+      ]
+    }
+  

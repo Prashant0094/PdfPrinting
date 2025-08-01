@@ -3,6 +3,7 @@ package com.prashant.pdfprinting.dto;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
@@ -13,6 +14,7 @@ public class Annexure2DTO {
     private String acceptorName;
     private String contractorName;
     private String attendantName;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSX")
     private Date dateTime;
     private String sign;
     private String drawing;

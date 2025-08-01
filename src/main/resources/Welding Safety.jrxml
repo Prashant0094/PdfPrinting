@@ -1,0 +1,389 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Welding Safety" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="46fd0e1b-f854-4433-8ba6-e41c497e958b">
+	<parameter name="status_1" class="java.lang.String"/>
+	<parameter name="status_2" class="java.lang.String"/>
+	<parameter name="status_3" class="java.lang.String"/>
+	<parameter name="status_4" class="java.lang.String"/>
+	<parameter name="status_5" class="java.lang.String"/>
+	<parameter name="status_6" class="java.lang.String"/>
+	<parameter name="status_7" class="java.lang.String"/>
+	<parameter name="status_8" class="java.lang.String"/>
+	<parameter name="status_9" class="java.lang.String"/>
+	<parameter name="status_10" class="java.lang.String"/>
+	<parameter name="status_11" class="java.lang.String"/>
+	<parameter name="status_12" class="java.lang.String"/>
+	<parameter name="contractorSupervisor_name" class="java.lang.String"/>
+	<parameter name="contractorSupervisor_dateTime" class="java.util.Date"/>
+	<parameter name="engineer_dateTime" class="java.util.Date"/>
+	<parameter name="engineer_name" class="java.lang.String"/>
+	<parameter name="recommendation" class="java.lang.String"/>
+	<parameter name="location" class="java.lang.String"/>
+	<parameter name="contractorName" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="802" splitType="Stretch">
+		<element kind="staticText" uuid="f1420289-2ea8-443c-a99e-b5dd3e7b8beb" x="-20" y="-20" width="595" height="41" fontName="Times New Roman" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Thyssenkrupp Industries India Ltd.]]></text>
+		</element>
+		<element kind="staticText" uuid="c60e587d-f209-4c27-b51b-e2e50b5dabcd" x="-20" y="2" width="595" height="41" fontName="Times New Roman" fontSize="16.0" bold="false" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Check list for Safety Inspection of Welding Machine (Electrical)]]></text>
+		</element>
+		<element kind="staticText" uuid="440a2a76-6f72-42d1-9e5a-5a9b2f035d55" x="-10" y="54" width="31" height="12" fontName="Times New Roman">
+			<text><![CDATA[Plant :]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c706a7f6-b57a-42bd-8444-c2c50e16b56a" x="-10" y="72" width="116" height="12" fontName="Times New Roman">
+			<text><![CDATA[Welding machine capacity :]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c8a6f43f-59cb-4854-958f-326c52c4a09a" x="-10" y="90" width="50" height="12" fontName="Times New Roman">
+			<text><![CDATA[Make: M/C]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c8bf8c56-a82e-4786-87ef-0f297cf70359" x="-10" y="107" width="105" height="12" fontName="Times New Roman">
+			<text><![CDATA[Name of the Contractor :]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="02334a5b-1b9a-4aed-a239-d8b8dbdd3193" x="22" y="63" width="157" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="4857ae02-51a2-43a8-97ca-a6c35dddf759" x="189" y="54" width="31" height="12" fontName="Times New Roman">
+			<text><![CDATA[Area :]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="4ab5d571-7e2d-4284-88f1-b3fe7c8458db" x="218" y="65" width="131" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="ee6bbdf8-5188-4b2f-ac60-a3d19bb009e2" x="383" y="54" width="44" height="12" fontName="Times New Roman">
+			<text><![CDATA[Location :]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="e5e8e761-4dba-4bff-b6d9-72b0c56c389d" x="427" y="66" width="131" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="33d4e7e4-9458-4458-a9d2-7081c6bab3d0" x="106" y="83" width="248" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="87fffa34-375d-43fa-917f-dcb1a1aceaf5" x="371" y="72" width="50" height="12" fontName="Times New Roman">
+			<text><![CDATA[KVA]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="4457a8a6-508c-4977-aa89-9065eea4f85f" x="41" y="99" width="259" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="efcaefb1-60ea-411f-9930-951e1d1c5991" x="413" y="90" width="36" height="12" fontName="Times New Roman">
+			<text><![CDATA[Sr. No :]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="ff4608a1-d3e9-4622-be64-26dea463c297" x="450" y="100" width="111" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="d945f69f-a4a6-40df-a51a-63311f59c647" x="95" y="118" width="454" height="1">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="e6505e38-5da9-48e9-a2f3-2962c9ae0b9b" x="566" y="140" width="1" height="367"/>
+		<element kind="line" uuid="ead07f8d-2d6d-4712-8ad4-cd3426c58914" x="-10" y="140" width="577" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="d77c2f17-425e-47e6-ba19-31c4456915be" x="-10" y="140" width="1" height="367"/>
+		<element kind="line" uuid="f847819c-1ac9-4abd-8e71-a63ec6a9aa74" x="-9" y="160" width="575" height="1"/>
+		<element kind="line" uuid="af8267f2-3319-4dfe-8a62-82813bc06c9d" x="22" y="140" width="1" height="367"/>
+		<element kind="line" uuid="2f2d9b4f-0b18-4768-919b-b8cc95e4f566" x="461" y="140" width="1" height="367"/>
+		<element kind="staticText" uuid="60eea013-a33e-4c6c-9f0c-c0818f8dbce2" x="-10" y="140" width="32" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Sr No]]></text>
+		</element>
+		<element kind="staticText" uuid="a239b2a3-53fa-49c4-b644-c51b61bc3859" x="30" y="140" width="430" height="20" fontName="Times New Roman" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Description]]></text>
+		</element>
+		<element kind="staticText" uuid="c86f3e56-19db-4725-9f37-d7e3c1884c37" x="460" y="140" width="105" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Status]]></text>
+		</element>
+		<element kind="staticText" uuid="270490dc-9121-413f-999e-0d3a979d6f23" x="-9" y="161" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[1]]></text>
+		</element>
+		<element kind="staticText" uuid="af5682cd-2a01-4acc-b3bc-7dc9e2e4bce8" x="22" y="161" width="440" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Check physical condition of welding machine]]></text>
+		</element>
+		<element kind="line" uuid="4cdc8ad3-98dd-4d87-bea3-4736a6d5e323" x="-10" y="181" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="14c1e177-9349-4f7d-b7c8-415d4837efc6" x="-9" y="182" width="30" height="38" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[2]]></text>
+		</element>
+		<element kind="staticText" uuid="471f0f72-adbd-4dba-8932-66c5fc90632c" x="22" y="182" width="440" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Check condition of electrical components like operating switch, fuse, starter, output terminals, ]]></text>
+		</element>
+		<element kind="line" uuid="2944502a-2b07-4450-a69c-9acdc5c78a00" x="-10" y="220" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9cdd5f68-40db-46e7-bd20-458faebb56cc" x="23" y="202" width="440" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ regulators, etc.]]></text>
+		</element>
+		<element kind="staticText" uuid="ba7cd5e5-b179-45fc-9129-78e45f5e4e0f" x="-9" y="221" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[3]]></text>
+		</element>
+		<element kind="staticText" uuid="40d8dc9c-84ed-4411-aaee-d6f207b04212" x="22" y="222" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Check power cable condition and its connections]]></text>
+		</element>
+		<element kind="line" uuid="4ee90682-251a-41ab-932b-ee2a91127fa7" x="-10" y="241" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="7135bce2-4fe3-496d-8393-1865acbaa21f" x="-9" y="243" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[4]]></text>
+		</element>
+		<element kind="staticText" uuid="f987f315-517f-4e47-ba41-b7ac20741bf3" x="22" y="242" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Check earthling connection]]></text>
+		</element>
+		<element kind="line" uuid="7bc4f73e-d95b-4b94-90f9-0a40827b920c" x="-10" y="262" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0c1c5e02-3fc8-4135-81ed-ae09ad12d16f" x="-9" y="263" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[5]]></text>
+		</element>
+		<element kind="staticText" uuid="8ba6c740-03cd-4cc3-a2ef-28d75d4f109d" x="22" y="263" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Check whether cable is terminated with proper size of lugs]]></text>
+		</element>
+		<element kind="line" uuid="a4f0c50f-dc69-4f1e-b6bd-1f1b7963d92d" x="-10" y="282" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b84669e7-e3f0-48cb-aa5d-916018cb11e8" x="-9" y="282" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[6]]></text>
+		</element>
+		<element kind="staticText" uuid="f922a617-79dd-44aa-aecd-ec1eda8aa095" x="22" y="282" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Ensure that the joints are avoided in the main power Connection as well as welding cables]]></text>
+		</element>
+		<element kind="line" uuid="69b3671a-bb50-42cd-9da6-c549512685f7" x="-10" y="302" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="49b4d540-d0d7-459c-b558-d252b2802f3e" x="-9" y="303" width="30" height="40" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[7]]></text>
+		</element>
+		<element kind="staticText" uuid="70b03938-71e8-47ca-99aa-87dc884ae5eb" x="22" y="303" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ AC power cable to welding machine to be short in length. It should be taken O/H to the machine. If cable]]></text>
+		</element>
+		<element kind="staticText" uuid="9ada78fa-2cef-4b74-817d-ad95cd51a5ec" x="23" y="323" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ cannot be taken O/H, then mechanical protection to the cable to be provided.]]></text>
+		</element>
+		<element kind="line" uuid="9035c3b9-bfa4-417b-a305-e199090c3869" x="-10" y="342" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="1739a15f-cb36-4632-bc8e-ad2062b61c7a" x="-8" y="343" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[8]]></text>
+		</element>
+		<element kind="staticText" uuid="15cb543d-687b-4e27-876a-50351e81a97d" x="22" y="343" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Both live and neutral cable to be taken to the job. Structures are not to be utilized as return path]]></text>
+		</element>
+		<element kind="line" uuid="d904d6d8-f582-4c1f-921f-84d4e6f5f234" x="-10" y="363" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="599bc19c-22f0-4dc7-aed9-c61922a9b675" x="-9" y="364" width="30" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[9]]></text>
+		</element>
+		<element kind="staticText" uuid="42246cb9-b223-442a-b678-da6ae23c1655" x="22" y="364" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Machine is air cooled type and condition of fan]]></text>
+		</element>
+		<element kind="line" uuid="8764c6be-0f66-48f7-a9de-8d8b50626413" x="-10" y="383" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="cd419c78-8190-41c7-8d4a-ed423bb66d92" x="-9" y="384" width="30" height="40" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[10]]></text>
+		</element>
+		<element kind="staticText" uuid="29a546c6-a275-45f8-b4fe-02a188594d4b" x="22" y="384" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Remote control power supply voltage below 50 Volts (ELCB 30 mA rating provided for control supply ]]></text>
+		</element>
+		<element kind="staticText" uuid="2685d306-a98e-4068-b064-057946ccaa91" x="22" y="404" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[  above 50 V)]]></text>
+		</element>
+		<element kind="line" uuid="26e3e25a-b31e-4e88-a30a-263304755d93" x="-10" y="423" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="16430f04-1d74-4dba-b03f-0dfe81d2fdb0" x="-9" y="424" width="30" height="42" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[11]]></text>
+		</element>
+		<element kind="staticText" uuid="1c2d5bac-3a91-442c-a9f7-c0d777b85161" x="22" y="424" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[]]></text>
+		</element>
+		<element kind="line" uuid="a394845f-f160-4f01-9c3b-b7fb4c5cf86f" x="-10" y="465" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ae5a6e76-6e35-4f2f-8cd6-ba98067dee20" x="23" y="424" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Insulation Resistance of machine, power cable _ _ _ _ Mega Ohms]]></text>
+		</element>
+		<element kind="staticText" uuid="1eb97a9f-68ff-4550-bf91-aab325a16f79" x="23" y="445" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ (Accepted value should not be less than 2 Mega Ohms)]]></text>
+		</element>
+		<element kind="staticText" uuid="3d90d242-f2cd-4541-9060-3ed75189a640" x="23" y="466" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Welding cable Crimping by using proper crimping tools, Check Tightness at Electrode Holder and ]]></text>
+		</element>
+		<element kind="staticText" uuid="43b7d07e-f6dd-485a-9ca4-ce29c4528e43" x="23" y="486" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Machine end and condition of grommet.]]></text>
+		</element>
+		<element kind="staticText" uuid="48d02a56-492c-44f3-80e2-199e2baeabd1" x="-9" y="466" width="30" height="42" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[12]]></text>
+		</element>
+		<element kind="line" uuid="47b32d27-b23f-4448-bea3-4648096a0c2a" x="-10" y="506" width="576" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ffb44873-748b-45f4-bdf8-d7e1739f2a9c" x="0" y="530" width="85" height="20" fontName="Times New Roman" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Recommendation:]]></text>
+		</element>
+		<element kind="staticText" uuid="7ceeee73-eec0-47f1-9cbd-61d96eeba643" x="47" y="551" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Welding m/c is allowed to work in plant areas]]></text>
+		</element>
+		<element kind="staticText" uuid="4e087720-b7c3-4f2a-85bd-2f26e8f959c8" x="47" y="572" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[ Welding machine is not in good condition, however allowed to work after necessary repairs as identified.]]></text>
+		</element>
+		<element kind="staticText" uuid="e0696c97-15c7-4f51-9aea-15c6500b73e0" x="47" y="592" width="438" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Welding is unsuitable for use in plant areas.To be removed from site.]]></text>
+		</element>
+		<element kind="staticText" uuid="961635d8-d332-40d0-931b-835d9f583d34" x="0" y="640" width="200" height="20" fontName="Times New Roman" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Inspected & Certified by:]]></text>
+		</element>
+		<element kind="staticText" uuid="a79802e4-a69b-4850-a5ba-0c08770be3e9" x="80" y="670" width="200" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Maintainance Engineer]]></text>
+		</element>
+		<element kind="staticText" uuid="62ee0a86-82c6-421b-a3eb-33f7786d1341" x="85" y="691" width="34" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Name:]]></text>
+		</element>
+		<element kind="staticText" uuid="1b224893-0985-4097-be99-70329f7948fb" x="85" y="712" width="34" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Sign:]]></text>
+		</element>
+		<element kind="staticText" uuid="0e76656b-79a4-4df0-8d59-51ef3824beb4" x="85" y="734" width="34" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Date:]]></text>
+		</element>
+		<element kind="line" uuid="1175b848-5b8a-4b8d-9790-81d29528332b" x="118" y="708" width="159" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="29c28975-61fb-4c68-b185-4682c7c48401" x="118" y="728" width="159" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="e8115fba-5922-44ba-8042-3d2948b7888b" x="118" y="749" width="159" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="65655e3c-535e-4151-afde-2c2c6f60f8ac" x="310" y="670" width="200" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Contract Supervisor]]></text>
+		</element>
+		<element kind="staticText" uuid="0eb8e6ae-a0b6-42ef-a524-5cadadd43754" x="315" y="691" width="34" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Name:]]></text>
+		</element>
+		<element kind="staticText" uuid="9f8df858-d784-42af-8432-c2878c15a138" x="315" y="712" width="34" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Sign:]]></text>
+		</element>
+		<element kind="staticText" uuid="26621a8d-b6e6-4446-97df-416ab1aed6d0" x="315" y="734" width="34" height="20" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Date:]]></text>
+		</element>
+		<element kind="line" uuid="4bf9b053-6f10-4563-8f9d-fc6c67049c6f" x="347" y="708" width="159" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="bde3f860-8d8d-4565-aae2-661abc6dcd36" x="347" y="728" width="159" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="74e6a084-4543-47be-abce-b8316eccdce2" x="348" y="749" width="159" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="c42bc7ae-1309-4a6b-9226-7679e50ec906" x="571" y="-14" width="1" height="816">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="e8373eed-5ec0-41e0-93f0-0b7db2f1206f" x="-15" y="-15" width="586" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="70b6e08a-c903-4007-bd19-ccae56ab1354" x="-15" y="-15" width="1" height="817">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="7eb6ec56-b24d-484e-bcbb-381cf3a085ff" x="-14" y="801" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="4caa30ab-085f-464d-8c1e-d50c5c066dfb" x="463" y="160" width="102" height="22" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="e114fcaa-7c05-4e3e-b549-c781f1b53290" x="462" y="221" width="105" height="20" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="9b34ce8d-8106-4fc9-98da-b18c1946bcaa" x="462" y="181" width="105" height="39" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="a1cfe097-95a0-4481-89a2-084ba934df29" x="462" y="242" width="105" height="19" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="051c9405-88dc-410b-9e88-61991bae0e6e" x="462" y="263" width="105" height="19" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="e544940b-0bee-4494-91e5-79eeaf8eeeaa" x="462" y="304" width="105" height="38" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_7}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="a8d015b4-5289-4eb2-89e0-aa13f4992388" x="462" y="283" width="105" height="18" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="831acca1-04e4-4fc9-ac5f-9a2e10ee7343" x="462" y="344" width="105" height="18" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_8}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="6651ec83-6569-4eb0-8816-79d8af6749b9" x="462" y="364" width="105" height="18" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_9}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="054bf56c-b8b4-4b1f-af83-0b2fa24f3f17" x="462" y="384" width="105" height="39" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_10}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="c222b592-c0bb-4011-9491-b18fa7cfb870" x="462" y="426" width="105" height="39" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_11}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="b52bec75-b82e-4c62-8ab1-30fb99fb3434" x="462" y="467" width="105" height="39" fontName="Times New Roman" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{status_12}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="dda16b3f-89cf-420f-b659-428a25cb975d" x="429" y="54" width="91" height="12" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{location}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="786c81ef-8cba-4aa3-9ddf-b54cc6ecc04a" x="97" y="107" width="91" height="12" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{contractorName}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b6523883-fc33-4fc2-9b0e-0b7f50507cb7" x="350" y="695" width="156" height="13" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{contractorSupervisor_name}]]></expression>
+		</element>
+		<element kind="textField" uuid="e020a7f5-fac1-4231-b5fe-357e986a191c" x="350" y="736" width="156" height="13" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{contractorSupervisor_dateTime}]]></expression>
+		</element>
+		<element kind="textField" uuid="26f52612-c6de-42be-831b-4ff8a9611153" x="120" y="736" width="156" height="13" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{engineer_dateTime}]]></expression>
+		</element>
+		<element kind="textField" uuid="1d4ce59a-c7d4-43e2-8497-96264965c8c8" x="120" y="695" width="155" height="13" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{engineer_name}]]></expression>
+		</element>
+		<element kind="textField" uuid="1663f2f8-5b32-4a0b-bfd3-d2ce4af516bb" x="85" y="534" width="445" height="13" fontName="Times New Roman" vTextAlign="Top">
+			<expression><![CDATA[$P{recommendation}]]></expression>
+		</element>
+	</title>
+</jasperReport>

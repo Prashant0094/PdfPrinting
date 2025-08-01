@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 
 import com.prashant.pdfprinting.dto.Annexure1DTO;
 import com.prashant.pdfprinting.dto.Annexure2DTO;
+import com.prashant.pdfprinting.dto.Appendix1DTO;
+import com.prashant.pdfprinting.dto.Appendix2DTO;
+import com.prashant.pdfprinting.dto.GasCuttingDTO;
+import com.prashant.pdfprinting.dto.WeldingSafetyDTO;
 
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
@@ -39,5 +43,44 @@ public class ReportService {
 
 	    return JasperExportManager.exportReportToPdf(print);
 	}
+	public byte[] generateAppendix1Pdf(Appendix1DTO dto, Map<String, Object> params) throws JRException, IOException {
+	    InputStream template = getClass().getResourceAsStream("/Appendix-1.jrxml");
+	    JasperReport report = JasperCompileManager.compileReport(template);
 
+	    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(dto.getAppendixRequestList());
+
+	    JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
+
+	    return JasperExportManager.exportReportToPdf(print);
+	}
+	public byte[] generateAppendix2Pdf(Appendix2DTO dto, Map<String, Object> params) throws JRException, IOException {
+	    InputStream template = getClass().getResourceAsStream("/Appendix-2.jrxml");
+	    JasperReport report = JasperCompileManager.compileReport(template);
+
+	    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(dto.getAppendixRequestList());
+
+	    JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
+
+	    return JasperExportManager.exportReportToPdf(print);
+	}
+	public byte[] generateGasCuttingPdf(GasCuttingDTO dto, Map<String, Object> params) throws JRException, IOException {
+	    InputStream template = getClass().getResourceAsStream("/Gas Cutting Safety.jrxml");
+	    JasperReport report = JasperCompileManager.compileReport(template);
+
+	    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(dto.getList());
+
+	    JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
+
+	    return JasperExportManager.exportReportToPdf(print);
+	}
+	public byte[] generateWeldingSafetyPdf(WeldingSafetyDTO dto, Map<String, Object> params) throws JRException, IOException {
+	    InputStream template = getClass().getResourceAsStream("/Welding Safety.jrxml");
+	    JasperReport report = JasperCompileManager.compileReport(template);
+
+	    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(dto.getWeldingMachineList());
+
+	    JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
+
+	    return JasperExportManager.exportReportToPdf(print);
+	}
 }
