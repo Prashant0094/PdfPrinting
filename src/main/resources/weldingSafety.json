@@ -3,7 +3,7 @@
       "location": "SomeWhere!",
       "dateTime": "2025-07-29T05:16:15.372Z",
       "contractorName": "SomeThing",
-      "recommendation": "Not YET !",
+      "recommendation": "NOT YET !",
       "weldingMachineCertifiedBySuperVisor": {
         "id": 0,
         "certifiedBy": "Supervisor",
@@ -28,7 +28,12 @@
          "id": 0,
           "checkListText": "string",
           "status": "Not OK"
-          }
+          },
+                 {
+         "id": 0,
+          "checkListText": "string",
+          "status": "OK"
+          } 
       ]
     }
   

@@ -1,0 +1,37 @@
+{
+  "topic": "Working at Heights",
+  "topicCover": "Use of Harness and Safety Nets",
+  "tbtGiven": "Approver",
+  "location": "Site A",
+  "hazards": "Fall from height, Falling objects",
+  "controls": "Safety harness, Guard rails, Helmet",
+  "dateTime": "2025-08-04T10:30:00",
+  "tbtDeliveredByName": "Some Safety Guy",
+  "participants": [
+    {
+      "name": "Random 1",
+      "designation": "Welder",
+      "gpNo": "GP101"
+    },
+    {
+      "name": "Random 2",
+      "designation": "Fitter",
+      "gpNo": "GP102"
+    },
+    {
+      "name": "Random 3",
+      "designation": "Helper",
+      "gpNo": "GP103"
+    },
+    {
+      "name": "Random 4",
+      "designation": "Supervisor",
+      "gpNo": "GP104"
+    },
+    {
+      "name": "Random 5",
+      "designation": "Electrician",
+      "gpNo": "GP105"
+    }
+  ]
+}

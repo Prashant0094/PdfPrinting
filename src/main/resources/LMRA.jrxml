@@ -1,0 +1,1050 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Last Minute Risk Assessment" language="java" columnCount="1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="2" uuid="b196613f-faa4-4b64-8a78-9db705f94a68">
+	<parameter name="engineerName" class="java.lang.String"/>
+	<parameter name="additionalControls" class="java.lang.String"/>
+	<parameter name="time" class="java.lang.String"/>
+	<parameter name="workerName_1" class="java.lang.String"/>
+	<parameter name="workerName_2" class="java.lang.String"/>
+	<parameter name="workerName_3" class="java.lang.String"/>
+	<parameter name="workerName_4" class="java.lang.String"/>
+	<parameter name="workerName_5" class="java.lang.String"/>
+	<parameter name="workerName_6" class="java.lang.String"/>
+	<parameter name="workerName_7" class="java.lang.String"/>
+	<parameter name="workerName_8" class="java.lang.String"/>
+	<parameter name="workerName_9" class="java.lang.String"/>
+	<parameter name="workerName_10" class="java.lang.String"/>
+	<parameter name="workerName_11" class="java.lang.String"/>
+	<parameter name="workerName_12" class="java.lang.String"/>
+	<parameter name="workerName_13" class="java.lang.String"/>
+	<parameter name="workerName_14" class="java.lang.String"/>
+	<parameter name="workerName_15" class="java.lang.String"/>
+	<parameter name="workerName_16" class="java.lang.String"/>
+	<parameter name="workerName_17" class="java.lang.String"/>
+	<parameter name="workerName_18" class="java.lang.String"/>
+	<parameter name="workerName_19" class="java.lang.String"/>
+	<parameter name="workerName_20" class="java.lang.String"/>
+	<parameter name="q1_yes" class="java.lang.String"/>
+	<parameter name="q2_yes" class="java.lang.String"/>
+	<parameter name="q3_yes" class="java.lang.String"/>
+	<parameter name="q4_yes" class="java.lang.String"/>
+	<parameter name="q5_yes" class="java.lang.String"/>
+	<parameter name="q6_yes" class="java.lang.String"/>
+	<parameter name="q7_yes" class="java.lang.String"/>
+	<parameter name="q8_yes" class="java.lang.String"/>
+	<parameter name="q9_yes" class="java.lang.String"/>
+	<parameter name="q10_yes" class="java.lang.String"/>
+	<parameter name="q11_yes" class="java.lang.String"/>
+	<parameter name="q12_yes" class="java.lang.String"/>
+	<parameter name="q13_yes" class="java.lang.String"/>
+	<parameter name="q14_yes" class="java.lang.String"/>
+	<parameter name="q15_yes" class="java.lang.String"/>
+	<parameter name="q16_yes" class="java.lang.String"/>
+	<parameter name="q17_yes" class="java.lang.String"/>
+	<parameter name="q18_yes" class="java.lang.String"/>
+	<parameter name="q19_yes" class="java.lang.String"/>
+	<parameter name="q20_yes" class="java.lang.String"/>
+	<parameter name="q21_yes" class="java.lang.String"/>
+	<parameter name="q22_yes" class="java.lang.String"/>
+	<parameter name="q1_no" class="java.lang.String"/>
+	<parameter name="q2_no" class="java.lang.String"/>
+	<parameter name="q3_no" class="java.lang.String"/>
+	<parameter name="q4_no" class="java.lang.String"/>
+	<parameter name="q5_no" class="java.lang.String"/>
+	<parameter name="q6_no" class="java.lang.String"/>
+	<parameter name="q7_no" class="java.lang.String"/>
+	<parameter name="q8_no" class="java.lang.String"/>
+	<parameter name="q9_no" class="java.lang.String"/>
+	<parameter name="q10_no" class="java.lang.String"/>
+	<parameter name="q11_no" class="java.lang.String"/>
+	<parameter name="q12_no" class="java.lang.String"/>
+	<parameter name="q13_no" class="java.lang.String"/>
+	<parameter name="q14_no" class="java.lang.String"/>
+	<parameter name="q15_no" class="java.lang.String"/>
+	<parameter name="q16_no" class="java.lang.String"/>
+	<parameter name="q17_no" class="java.lang.String"/>
+	<parameter name="q18_no" class="java.lang.String"/>
+	<parameter name="q19_no" class="java.lang.String"/>
+	<parameter name="q20_no" class="java.lang.String"/>
+	<parameter name="q21_no" class="java.lang.String"/>
+	<parameter name="q22_no" class="java.lang.String"/>
+	<parameter name="q1_na" class="java.lang.String"/>
+	<parameter name="q2_na" class="java.lang.String"/>
+	<parameter name="q3_na" class="java.lang.String"/>
+	<parameter name="q4_na" class="java.lang.String"/>
+	<parameter name="q5_na" class="java.lang.String"/>
+	<parameter name="q6_na" class="java.lang.String"/>
+	<parameter name="q7_na" class="java.lang.String"/>
+	<parameter name="q8_na" class="java.lang.String"/>
+	<parameter name="q9_na" class="java.lang.String"/>
+	<parameter name="q10_na" class="java.lang.String"/>
+	<parameter name="q11_na" class="java.lang.String"/>
+	<parameter name="q12_na" class="java.lang.String"/>
+	<parameter name="q13_na" class="java.lang.String"/>
+	<parameter name="q14_na" class="java.lang.String"/>
+	<parameter name="q15_na" class="java.lang.String"/>
+	<parameter name="q16_na" class="java.lang.String"/>
+	<parameter name="q17_na" class="java.lang.String"/>
+	<parameter name="q18_na" class="java.lang.String"/>
+	<parameter name="q19_na" class="java.lang.String"/>
+	<parameter name="q20_na" class="java.lang.String"/>
+	<parameter name="q21_na" class="java.lang.String"/>
+	<parameter name="q22_na" class="java.lang.String"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="company" class="java.lang.String"/>
+	<parameter name="task" class="java.lang.String"/>
+	<parameter name="location" class="java.lang.String"/>
+	<parameter name="isJsaReviewed" class="java.lang.Boolean"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="573" splitType="Stretch">
+		<element kind="line" uuid="270965be-efc9-4b73-9928-a5227480742b" x="-10" y="-10" width="822" height="1">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="9489d4d5-dee8-4332-bf2f-3928b62550eb" x="-10" y="569" width="822" height="1">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="0af7e344-6ee4-4d68-bd6c-951890180b8b" x="812" y="-10" width="1" height="580">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="0ee27b67-441e-46fa-8cb6-43624637e7d0" x="-10" y="-9" width="1" height="579">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="c1bcda04-edf2-4cf6-b39a-b63adbe7f188" x="411" y="-10" width="1" height="579">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="674030e1-d05a-4f9d-89d0-bff24bc3ce0a" x="130" y="10" width="276" height="15" fontName="Times New Roman" bold="true" hTextAlign="Right">
+			<text><![CDATA[(formerly known as thyssenkrupp Industries India Pvt. Ltd.)]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4014207a-3dd3-4958-845c-2230c9721477" x="-3" y="-15" width="409" height="30" fontName="Times New Roman" fontSize="18.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+			<text><![CDATA[TKIL Industries Private Limited.]]></text>
+		</element>
+		<element kind="staticText" uuid="5d4169fe-44e0-4adc-9b71-ba4429fdb6be" x="0" y="16" width="276" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Sr. No -]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0897b41c-c91f-43e5-86d1-40d9d395dd22" x="0" y="31" width="276" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Last Minute Risk Assessment]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="a4a8ca9c-8de5-494b-877b-6509708c3900" x="0" y="48" width="276" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Date:                       Time:                               Company:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="7fd80e39-51b9-4720-9b3a-ffe1def1bdc4" x="0" y="63" width="301" height="1"/>
+		<element kind="staticText" uuid="476e0add-6ca9-461b-b6d0-378ce9f4783b" x="0" y="67" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Location:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="9661db0a-87a5-4c1e-9c5a-37dd5cdfc6ca" x="0" y="82" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0ee9ebe6-6835-4fe3-8269-fd7047a25007" x="0" y="87" width="24" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Task:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="aba45d6c-9c99-4863-bd56-300d519693ef" x="0" y="100" width="320" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="72f15c65-8db1-4d38-9b0f-00e6780b73b2" x="0" y="116" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="a7c0b84d-11ff-496f-8ad1-10816977094e" x="400" y="82" width="1" height="35"/>
+		<element kind="line" uuid="6c599b22-e445-40c8-921d-6cafda3750d9" x="320" y="82" width="1" height="35"/>
+		<element kind="staticText" uuid="34e8704b-0472-4060-a80f-23a294141f6d" x="5" y="121" width="374" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Conduct the LMRA directly at your workplace prior to commencing work!]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="89568a61-2b46-46f5-b927-4e52d40dac10" x="5" y="135" width="374" height="25" fontName="Times New Roman" bold="false" hTextAlign="Left">
+			<text><![CDATA[If the answer is NO to any question, you need to identify additional controls overleaf before you start the task.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="759ca40b-d7ce-48ec-b918-52f2c53257e4" x="0" y="545" width="350" height="15" fontName="Times New Roman" bold="true" hTextAlign="Left">
+			<text><![CDATA[Engineer Name:                                                                       Signature:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="3a162416-e5cf-46ad-b364-0a3d7228424a" x="0" y="557" width="360" height="1"/>
+		<element kind="line" uuid="073bc97f-8bca-44ed-925b-32ce5e8fada4" x="0" y="195" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="aa2264c5-fcd3-4acd-93d8-8e791adc72c5" x="0" y="207" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="bc651abd-9c5e-4e3d-a76e-24dfa54913e0" x="1" y="183" width="338" height="12" fontName="Times New Roman" bold="true" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Have the Method Statement and JSA been reviewed and discussed?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="b7c2c229-a548-41d5-890c-c970acf99829" x="400" y="171" width="1" height="360">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="aa0ddcf1-9e67-40c5-85d8-c8e086fb42be" x="339" y="171" width="1" height="360">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="60ac5c7a-8f51-4c22-a0a8-46b262eb2c12" x="370" y="171" width="1" height="25"/>
+		<element kind="line" uuid="55d3e738-3d2a-437e-a073-7f34e36a8584" x="340" y="185" width="61" height="1"/>
+		<element kind="staticText" uuid="1d1d9dc0-7f48-477a-b6ae-ece182c5c128" x="340" y="172" width="31" height="14" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[YES]]></text>
+		</element>
+		<element kind="staticText" uuid="20c517d1-9bde-4fca-a5f2-39127b2f39d2" x="370" y="172" width="31" height="14" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NO]]></text>
+		</element>
+		<element kind="line" uuid="9567779f-823d-46ba-95e4-b31e596d98b2" x="360" y="196" width="1" height="335">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="7b3f0960-c9d4-4fb0-a889-6a17bc9734a2" x="380" y="196" width="1" height="335">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ab6ecd18-0667-4d0d-b91f-1f9e0795dd97" x="340" y="195" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[YES]]></text>
+		</element>
+		<element kind="staticText" uuid="472c4b34-9c65-4f5e-bdd1-c4df1e4a7bf0" x="360" y="195" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NO]]></text>
+		</element>
+		<element kind="staticText" uuid="6e0b8c11-83ee-4c7c-b1ba-95eb05b5e729" x="380" y="195" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[N/A]]></text>
+		</element>
+		<element kind="line" uuid="df5ffd79-21bd-4d0c-af16-250ce4e7785f" x="0" y="219" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="c27ccf1c-e456-4a59-9b1f-44e27105d9c9" x="0" y="231" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="825fa444-101e-43cc-aefb-e7f034c8ed5e" x="0" y="243" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="889219a8-3fde-43f9-8a87-5ccd61a4664f" x="0" y="255" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="526c0333-f2d1-4a14-8b00-057cc01653cb" x="0" y="267" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="023ba7cd-7b08-4ab0-8033-593c1bcdd151" x="0" y="279" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="a76240cc-5c47-47a5-a430-d80ec46aa125" x="340" y="280" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[YES]]></text>
+		</element>
+		<element kind="staticText" uuid="059e23e2-47f7-4f97-b8f8-1a721f041e4e" x="360" y="280" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NO]]></text>
+		</element>
+		<element kind="staticText" uuid="14329435-a71f-40ef-85ae-e49b1feb3099" x="380" y="280" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[N/A]]></text>
+		</element>
+		<element kind="line" uuid="8e605c52-0aa4-407c-b40b-47ae98f3dd55" x="340" y="292" width="61" height="1"/>
+		<element kind="line" uuid="b00809b3-6713-4b6d-842b-e6a021daba51" x="0" y="303" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="64335f5c-2e77-4484-b5e5-c77929e30164" x="0" y="315" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="3801352e-f67a-46ea-99e4-98b55fb81ed9" x="0" y="327" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="114b3a3e-5266-4ff1-96b9-f2bc3bff4163" x="0" y="339" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="b7d65af9-cc5e-4318-b84a-a2d8de08490a" x="0" y="352" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c0a7d657-0dc8-4d31-be89-34c7561bad34" x="340" y="353" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[YES]]></text>
+		</element>
+		<element kind="staticText" uuid="b06582fe-a759-4974-a230-4c88d4d6ce34" x="360" y="353" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NO]]></text>
+		</element>
+		<element kind="staticText" uuid="37b498d4-d7cf-4fe1-88c7-4febdbdea516" x="380" y="353" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[N/A]]></text>
+		</element>
+		<element kind="line" uuid="d8e75451-2b16-4563-9024-ddce0c9004a2" x="340" y="365" width="61" height="1"/>
+		<element kind="line" uuid="1cd3974c-71b3-4cf4-9d5e-8ca749841c45" x="0" y="376" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="92d1c4dc-f4c8-4441-b88d-7c3cf923f950" x="0" y="388" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="dc5a63a4-3deb-404f-93d7-0b2baf47b759" x="0" y="411" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="52d71545-6cc7-4de3-be12-cd0dff758535" x="0" y="423" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="655efb33-79c5-4ff9-a466-328a9f691560" x="0" y="435" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="6a9d2d5c-a7bd-46f1-ab01-ea3cb058754b" x="0" y="447" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b0f16c1a-4541-4ac4-be51-b758fb0bac04" x="340" y="447" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[YES]]></text>
+		</element>
+		<element kind="staticText" uuid="3e23d0e2-c268-45c9-8e74-cafeae5fee59" x="360" y="447" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NO]]></text>
+		</element>
+		<element kind="staticText" uuid="ef8a0ba4-d434-43e9-b19b-f39ed2c23b33" x="380" y="447" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[N/A]]></text>
+		</element>
+		<element kind="line" uuid="87031387-df4a-4249-a65b-519f5436d3e6" x="340" y="459" width="61" height="1"/>
+		<element kind="line" uuid="8e5cfdfe-b2e5-481e-9349-d324478cfa83" x="0" y="470" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="68f95bf6-5e7f-4fee-a7a5-1d26c2f3c938" x="0" y="482" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="7614fddd-e165-41ed-809c-8ddac48556d1" x="0" y="494" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b84ea6c8-de22-4210-95fb-5841211863e3" x="340" y="495" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[YES]]></text>
+		</element>
+		<element kind="staticText" uuid="f0323c77-2f1f-45a2-9b05-c5d9a16eb4be" x="360" y="495" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NO]]></text>
+		</element>
+		<element kind="staticText" uuid="4c47e9f2-f422-4c48-8650-65809d97b606" x="380" y="495" width="20" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[N/A]]></text>
+		</element>
+		<element kind="line" uuid="5fa28202-a8a1-4460-8898-e16868c2bc21" x="340" y="506" width="61" height="1"/>
+		<element kind="line" uuid="5b4eeb36-68a2-443d-a2b2-51d5e06fe701" x="0" y="518" width="400" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="4291eb56-ef34-4237-ba2a-6d2d6de77c12" x="0" y="531" width="401" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4bdccb30-f228-4e9d-b734-b8461d8b551d" x="1" y="207" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is proper fall protection (collective or personal) in place?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="951db54e-dbaa-491d-a99d-c4442ce42c4d" x="340" y="171" width="61" height="1"/>
+		<element kind="staticText" uuid="39e88828-7f78-4679-b525-3be75c1bdffa" x="0" y="220" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is Pre Task Plan for all applicable and completed ?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="3d24eba2-c6cc-4598-aa2f-304bc8a0705e" x="0" y="232" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are all necessary controls implemented for hot work?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8149bd3c-875d-4ae6-8ca9-2f5f7db12f1e" x="0" y="244" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are all necessary controls implemented for confined space entry?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="123b0669-9c0e-411e-9f5d-a780843b41bc" x="0" y="291" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is the work assignment clear?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6878c1b9-1282-40c6-a89b-cfd304a6d847" x="0" y="268" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are electrical risks controlled?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="11cc267b-a21a-4f37-b376-7dc6ed43e218" x="1" y="255" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are all necessary controls implemented for excavation work?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="a00afc1a-f06d-4b67-9dff-caeaf3b25425" x="0" y="340" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are work areas and access ways properly secured?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d5c39852-96a3-44c1-980b-b0b6c5244a57" x="0" y="327" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are all risks of limited access or constrained posture controlled?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="854c74f5-7e45-44d3-b436-731fe966f87c" x="0" y="315" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are all necessary controls in place for simultaneous operations?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="87f492e3-a218-47b9-9d56-de1bfc546eb0" x="0" y="304" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is the team prepared for potential emergencies?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6f5135d7-3c62-4650-ba72-404a5ed3a965" x="1" y="376" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is adequate lighting provided?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="3fa312b2-70d5-420c-9164-042c9a14f42f" x="1" y="353" width="338" height="24" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="AtLeast"/>
+			<text><![CDATA[Are controls in place for adverse climate conditions (wind, rain, ice, snow, heat, etc.)?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="2b25b4f5-aa18-4f66-ba69-c6e4852d3017" x="0" y="388" width="338" height="24" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are controls in place to provide secure and stable use of tools or the use of defective work equipment?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6ea5a568-c655-4a25-acb5-233fd3ddda39" x="0" y="436" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is scaffolding complete and safe?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="352bc17b-0e81-4f72-af1b-d4fbba51894b" x="0" y="423" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are controls implemented for noise exposure/vibration hazards?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="328b9a73-f853-4557-89e9-8cfb169e095b" x="0" y="411" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are slipping and trippin hazards adequately cotrolled?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d131f3b4-9130-4805-a73c-b1587cfa3f54" x="0" y="506" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are controls in place for handling of the hazardous substances?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0c36f3b5-eab6-4361-a57f-d9f8a36cb7d2" x="0" y="519" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are controls in place for crushing/pinching/cutting body parts?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e77031b2-4984-46d1-8160-a1bb96f0ff58" x="0" y="483" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are the risks of moving machine parts controlled?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="001838b3-7b75-4788-8c99-26d38a854fb5" x="0" y="470" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Are the risks of unsecured or falling objects controlled?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="f287b1e6-f85d-48aa-bc13-ffa3cf44c245" x="0" y="458" width="338" height="12" fontName="Times New Roman" bold="false" hTextAlign="Left" vTextAlign="Top">
+			<text><![CDATA[Is Pre Task Plan for lifting applicable and completed?]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="929d6784-da62-4660-9464-724595f1c09c" x="425" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="c8d48ae3-6624-4fbf-ba62-bb4396b6848e" x="447" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="2f6a4aff-a5fb-44e2-987e-c89bc37fe044" x="526" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="50f3be2d-7507-4151-b691-f71065906a36" x="606" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="f5ec342f-d28b-4047-a55a-3068f2eb32e4" x="426" y="10" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="95033b34-706b-4384-891a-412adc865341" x="426" y="229" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="39a5de72-f16f-499e-8354-f5aa9b03fce9" x="426" y="30" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="ff5104d4-7622-48d4-9eac-6b0281422985" x="426" y="50" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="3ed54fc2-cf86-445a-b173-e8490e169cb8" x="426" y="70" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="483a80c3-e4af-4f5f-94d9-4a941bcfb829" x="426" y="90" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="53c7a6aa-80c4-4cb7-952b-2b8f8ffbe2dd" x="426" y="110" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="ba9f434c-502c-4e43-96a0-d6726ea17971" x="426" y="130" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="5c5be128-0826-4e88-825d-9247cc20177c" x="426" y="150" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="12855830-3dcb-4d6e-8bd0-38a64217bec9" x="426" y="170" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="73408c03-238f-46f7-b427-5270981a9442" x="426" y="190" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="8492fd03-ca26-4ce2-91c4-efa6a0db14ff" x="426" y="210" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="71729fd3-30c0-4132-bf26-363b18569985" x="620" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="b1413446-abc6-4e13-9317-c106ea1e3d10" x="642" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="3dc75f8b-25e5-46d9-9dc1-d7c05ec7641d" x="721" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="a9703f93-6b17-4e57-9dfe-ef52a296f096" x="801" y="10" width="1" height="220">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="7fab37b6-5893-4127-9a33-b5a1da0d03a2" x="621" y="10" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="eaf63c5e-6edd-4397-a2dd-50dfa7d5ce69" x="621" y="229" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="ec724cd7-f1ca-4f15-b7aa-56e5267020a5" x="621" y="30" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="fadc413a-4e5b-4a0b-b18b-0fac4c89f48b" x="621" y="50" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="93f6f673-a9ba-412e-a2e4-718b21f8d5d9" x="621" y="70" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="ff7a3eda-b44a-4577-b373-2ce6a7e3f787" x="621" y="90" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="5c2b9381-81a5-4ea3-ab65-1f3738729e69" x="621" y="110" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="4da9eef8-467d-430d-8d82-14043fab40ad" x="621" y="130" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="b38663ae-e0d6-4283-bdf4-2aa5bc467bf4" x="621" y="150" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="27737a84-7e34-4a11-a33a-867811997039" x="621" y="170" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="79c7f743-dfa8-4bff-86ee-d84b6ec73072" x="621" y="190" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="4a39733c-49e4-40a5-b219-c1435979842a" x="621" y="210" width="181" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="81e6bd5b-1e48-403b-b76a-90741d634c56" x="426" y="10" width="22" height="21" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[Num.]]></text>
+		</element>
+		<element kind="staticText" uuid="2e264923-4c58-4fba-885d-2086ddff7243" x="447" y="10" width="79" height="21" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[ Worker Name]]></text>
+		</element>
+		<element kind="staticText" uuid="5d9776df-6a1f-496f-8753-d049990529b4" x="527" y="10" width="79" height="21" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[ Signature]]></text>
+		</element>
+		<element kind="staticText" uuid="d07a2e9f-f70f-4ff1-8486-fffd30b8e6d9" x="621" y="10" width="22" height="21" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[Num.]]></text>
+		</element>
+		<element kind="staticText" uuid="6ec88ac4-3a8b-45c4-8a3a-60989e54aa84" x="642" y="10" width="79" height="21" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[ Worker Name]]></text>
+		</element>
+		<element kind="staticText" uuid="0683401e-ab9e-401f-ad23-0fd0c6250fda" x="721" y="9" width="79" height="21" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[ Signature]]></text>
+		</element>
+		<element kind="staticText" uuid="da218720-a12f-4235-90b8-ea7eb5549cde" x="426" y="31" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[1.]]></text>
+		</element>
+		<element kind="staticText" uuid="836a8cd0-30a6-475c-925a-811c3b626dff" x="426" y="51" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[2.]]></text>
+		</element>
+		<element kind="staticText" uuid="82c7380f-bc93-4713-9dd2-b11fa27f859e" x="426" y="71" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[3.]]></text>
+		</element>
+		<element kind="staticText" uuid="e01af502-0b50-4723-869d-dcfe428ecece" x="426" y="91" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[4.]]></text>
+		</element>
+		<element kind="staticText" uuid="4aa9f666-acac-4ebe-a285-63abe041976e" x="426" y="111" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[5.]]></text>
+		</element>
+		<element kind="staticText" uuid="0cab4665-948b-49e4-a639-f6ad4feda840" x="426" y="131" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[6.]]></text>
+		</element>
+		<element kind="staticText" uuid="9a85c40d-9e96-4a10-b1f4-92adbf642a37" x="426" y="151" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[7.]]></text>
+		</element>
+		<element kind="staticText" uuid="8a4017d8-e8f1-4eeb-a078-4c53c4bcf21d" x="426" y="171" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[8.]]></text>
+		</element>
+		<element kind="staticText" uuid="c39a404a-9ceb-49e5-a611-794ded9e64b6" x="426" y="191" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[9.]]></text>
+		</element>
+		<element kind="staticText" uuid="8f8a39f6-6d18-49bd-8647-9a3afe2e5b45" x="426" y="211" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[10.]]></text>
+		</element>
+		<element kind="staticText" uuid="351a2f37-cb60-4294-9f0a-483e058373c8" x="621" y="31" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[11.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d8a5d8fe-e80b-4040-a3f5-2d4bf75ed803" x="621" y="51" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[12.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ae8faf2a-f7c5-482b-9aa7-7d18f0177aec" x="621" y="71" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[13.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="104094a9-8d66-4a93-86b0-b65642d0c303" x="621" y="91" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[14.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ff85d478-d695-46f4-90c4-b61924cf1eed" x="621" y="111" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[15.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="566c139e-0f12-401f-8996-0930a206f4f9" x="621" y="131" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[16.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="a87387dc-ed53-4038-9b1f-f83db40bdeff" x="621" y="151" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[17.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e24a62bc-5edb-489f-9e43-832251a6c352" x="621" y="171" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[18.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="db1ffd82-2e4e-4b74-bb08-7098998d16b5" x="621" y="191" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[19.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="1f22ca69-03c4-40d8-b942-3a0014e462a4" x="621" y="211" width="20" height="19" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[20.]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4cecf90d-7d98-4f9f-8903-6cf235ea9dff" x="426" y="243" width="374" height="15" fontName="Times New Roman" bold="false" hTextAlign="Center">
+			<text><![CDATA[Identify additional controls]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="85f97905-aeb1-4507-961e-df27fcc39b8d" x="426" y="257" width="374" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center">
+			<text><![CDATA[List all measures to be implemented in case current controls are not sufficient.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="55439f6d-f697-43c1-9835-dc151982772a" x="426" y="291" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="18958c7d-dfb6-4677-a3b9-3c74fee653b6" x="426" y="306" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="03efa2ba-215b-48bb-a6bf-24470bea59d7" x="426" y="321" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="4ab82048-ba5d-4947-973a-da73642a702b" x="426" y="336" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="f5f0c274-5eba-4f68-aba6-10e4f178577c" x="426" y="351" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="987f5fd0-8d76-4204-b7f3-1e2eec56e6f4" x="426" y="366" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="031e532f-141b-4a7c-a8c0-a356b7f4d6c2" x="426" y="381" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="edcb2709-d9fb-419b-88f9-2c112dd75c58" x="426" y="396" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="b63f465f-8376-4d67-a457-fe414c351c0b" x="426" y="411" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="aa2a60da-1f3e-4e07-b68b-6774be02be35" x="426" y="426" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="04e3946a-5c1f-4e4c-923f-041f21ec8501" x="426" y="441" width="376" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e2c58231-47b9-413c-bc17-9abf6d8a4485" x="426" y="457" width="374" height="15" fontName="Times New Roman" bold="false" hTextAlign="Center">
+			<text><![CDATA[If your work area remains unsafe DO NOT START to work until]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0e70bbd2-5506-44ee-a1de-16d520b0c9df" x="426" y="471" width="374" height="15" fontName="Times New Roman" bold="false" hTextAlign="Center">
+			<text><![CDATA[sufficient controls are implemented. Inform your supervisor and ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="staticText" uuid="5aaa5999-35f8-40c5-8d8d-7038d5f9a18a" x="426" y="484" width="374" height="15" fontName="Times New Roman" bold="false" hTextAlign="Center">
+			<text><![CDATA[the client representative.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="textField" uuid="1d7eb0a5-496d-47aa-8f34-0a3e2983d424" x="110" y="49" width="59" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<expression><![CDATA[$P{time}]]></expression>
+		</element>
+		<element kind="textField" uuid="87594db9-c94c-479e-a4e2-a484c3c0bf69" x="449" y="31" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="851217df-be18-4944-b57f-7ee797eab8b5" x="30" y="49" width="50" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<expression><![CDATA[$P{date}]]></expression>
+		</element>
+		<element kind="textField" uuid="874ca955-ed90-478e-ab0a-e3cf2ae9774c" x="230" y="49" width="71" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<expression><![CDATA[$P{company}]]></expression>
+		</element>
+		<element kind="textField" uuid="ea37f2c8-10ca-4e04-b6bc-261e68fdc422" x="48" y="68" width="71" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<expression><![CDATA[$P{location}]]></expression>
+		</element>
+		<element kind="textField" uuid="59ae7493-1183-4c2e-9aaf-8b1caf6e0e8b" x="26" y="87" width="294" height="29" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<paragraph lineSpacing="1_1_2"/>
+			<expression><![CDATA[$P{task}]]></expression>
+		</element>
+		<element kind="textField" uuid="e17370d1-d99c-439b-b810-21bac88bfa63" x="70" y="545" width="126" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<expression><![CDATA[$P{engineerName}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="4908fe66-8e2a-4f80-8fa7-b6db6bdd6f77" x="426" y="278" width="374" height="160" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
+			<paragraph lineSpacing="1_1_2"/>
+			<expression><![CDATA[$P{additionalControls}]]></expression>
+		</element>
+		<element kind="textField" uuid="b29eb3e6-f7fb-46f3-851b-62076e054b13" x="449" y="51" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="a679bfa2-2822-4823-ae0c-b0522b54eca1" x="449" y="71" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="b7c9a84e-72e2-4177-be83-73965a88751a" x="449" y="91" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="e70558f8-9644-4b6f-8511-02b742b6d182" x="449" y="111" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="6343638b-71a5-4e4f-a65e-88c4af034d70" x="449" y="131" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="9b1c206a-fb82-4b06-9d4e-181010e24e2e" x="449" y="151" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_7}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="f474993a-936c-4c97-9860-5335255fb7da" x="449" y="171" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_8}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="4c6b9fed-0dd1-42ea-8f6e-a7ce73debd4d" x="449" y="191" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_9}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="d50ac9a7-bdf1-41e4-9207-fed6709c18ed" x="449" y="210" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_10}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="47279c80-419a-4e33-9adc-201fdef0deec" x="644" y="31" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_11}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="8d80d3c8-08f1-4ac9-9217-00f279027663" x="644" y="51" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_12}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="b53ba25a-c19d-4a38-9c80-1440b3014c03" x="644" y="71" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_13}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="c22ca185-84aa-4d11-bdc5-86387ee9771c" x="644" y="91" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_14}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="ab5d78ad-2b1e-4a43-8871-780350bf424f" x="644" y="111" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_15}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="b166cee7-e212-400c-a1f5-be8616eb53d6" x="644" y="131" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_16}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="67ee79fc-042b-485c-9387-06578ee7ff80" x="644" y="151" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_17}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="37d6337d-c3ab-49fe-bcb4-48a1421029a8" x="644" y="171" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_18}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="0e685d4b-f241-46c1-8a11-ebe4cecae910" x="644" y="191" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_19}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="b4695043-26a1-47c8-87df-b01c1b8db951" x="644" y="210" width="77" height="19" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{workerName_20}]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="035e1089-d496-4c34-a2f6-23453b5994db" x="340" y="208" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q1_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="e55a1d35-e806-436f-a3fb-ee48a9ec7f06" x="360" y="208" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q1_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="66c97772-7846-4926-aeb7-78ba6bcf2ead" x="380" y="208" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q1_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="5b8bff94-fa26-47a1-b43c-36264a4d49a5" x="380" y="220" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q2_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="11302cf2-20e2-4340-a563-35f827209c99" x="360" y="220" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q2_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="97832827-ee05-4c07-9153-caaed694e839" x="340" y="220" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q2_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="61696e59-68c6-4d3e-9d60-38a58c265ff5" x="380" y="243" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q4_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="b35a6de9-5282-439c-a99c-cf5452048a1e" x="380" y="231" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q3_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="9f4aaa21-1e09-42c9-98f2-96571795c4c0" x="360" y="231" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q3_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="38b51017-178a-4c5c-b928-5c21bf6ed8ad" x="360" y="243" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q4_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="076161ca-3d11-4747-88f9-fd08803ea7a7" x="340" y="243" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q4_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="30469a16-1d21-43a3-943f-bec4342152a2" x="340" y="231" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q3_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="9332bd1a-3993-4323-97ba-443c916ba202" x="379" y="267" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q6_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="3d29749b-a124-404f-a731-859eb332d3e0" x="379" y="255" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q5_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="98298026-c480-439e-abe1-b1dae6792e92" x="359" y="255" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q5_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="cb3bb802-52e9-4545-9440-22f2ac301b85" x="359" y="267" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q6_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="af4ba202-4441-4c6c-9311-67890101bc54" x="339" y="267" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q6_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="48aa2165-0625-4bc0-b697-e374b3fefd5b" x="339" y="255" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q5_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="6d769406-a1af-4225-bd03-e620fddb6b44" x="380" y="305" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q8_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="1ac04dd5-29bc-4728-a4e3-bd08a1a69c71" x="380" y="293" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q7_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="d469fdbc-10b1-4b76-80b0-2d7b9b09e074" x="360" y="293" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q7_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="d47b2453-f84e-4090-8572-e4533f8a88bf" x="360" y="305" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q8_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="1f27d4f5-8f3f-4384-a6eb-0d2085ce6d93" x="340" y="305" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q8_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="655d6d2d-fe96-4600-b2ba-b07ae5417b7f" x="340" y="293" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q7_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="eb8343a6-5799-4eef-9b71-03f8743a1e7a" x="380" y="328" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q10_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="bbb3ce08-0858-4cb6-a5a0-61adae04673d" x="380" y="316" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q9_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="0e5d538e-7a00-476b-81a2-eb879892d169" x="360" y="316" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q9_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="5aa43fbd-a7f5-4af2-a9de-87ee3cf34b48" x="360" y="328" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q10_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="5b0ae899-af4c-46cc-b217-33dbd18f4bbd" x="340" y="328" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q10_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="fdc8902d-3bd0-4f3a-9c7e-d74cb6e42701" x="340" y="316" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q9_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="9b056e1d-48b5-43a4-a2c5-dd155117a575" x="379" y="377" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q13_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="5484030c-9ccc-4861-9e2e-19245745bf02" x="379" y="365" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q12_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="a003445e-7199-49d0-af17-05706187ff06" x="359" y="365" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q12_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="68c8e2f5-8f40-4368-a980-455803f3eb19" x="359" y="377" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q13_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="66876525-d3e8-4377-ac5b-7a6835cc3c56" x="339" y="377" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q13_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="e742b34f-7e85-4d0c-8688-f74438aa7502" x="339" y="365" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q12_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="bc427261-30dc-47f0-b20f-60f87f62a655" x="380" y="413" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q15_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="535ed7fd-bb07-4dcb-8119-caf2d0324fc7" x="380" y="389" width="21" height="23" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q14_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="476a9ec3-4663-4e5d-a111-eca7a8733b95" x="360" y="389" width="21" height="23" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q14_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="9a6f67fe-55fd-4643-9376-385300c825bd" x="360" y="413" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q15_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="cfc7ac9e-791b-4394-8eaf-8e37b2508684" x="340" y="413" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q15_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="f6847ec2-4364-4335-8a2a-fc78a9f8a9f6" x="340" y="389" width="21" height="23" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q14_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="a3c2063d-f304-428a-82de-441ca12a0a60" x="380" y="340" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q11_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="a85a058b-20ad-43df-a3e6-e978f7bac663" x="360" y="340" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q11_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="d4f40098-6c0a-42c0-8c8c-45f371791673" x="340" y="340" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q11_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="0375e152-0ca8-4c62-82b9-01835fb87be2" x="380" y="424" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q16_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="15e4dcf4-4da7-46d7-97fb-6f8706002277" x="380" y="435" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q17_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="ae2ab1d8-8bca-429f-ae97-cdb218521e84" x="340" y="435" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q17_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="fc8c794f-fa1a-41d7-9e14-c2aacd505930" x="360" y="435" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q17_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="0a49ab33-79ca-479a-854b-f82b36ef25a4" x="360" y="424" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q16_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="4afaae28-ba37-4ea7-87bc-785d24089760" x="340" y="424" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q16_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="aefb188b-8a4b-4ab8-ba9b-a2d3452e0ed9" x="380" y="460" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q18_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="99bd652d-7bf2-469d-aa04-a99b67d33ecf" x="380" y="471" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q19_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="9a200cdf-ed1d-4301-8e47-edf3555de36c" x="340" y="471" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q19_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="8307a5c5-90ef-4b04-8777-032c0176c343" x="360" y="471" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q19_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="a762092a-26e3-4f0e-9313-2df8a9a5fda0" x="360" y="460" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q18_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="2656ad9f-ada5-4708-a885-dc7aa5668dea" x="340" y="460" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q18_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="975e529f-3d06-4da8-8cf5-d7d59aa24a53" x="379" y="508" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q21_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="942c7597-93f3-4615-913e-329b77a01205" x="379" y="519" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q22_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="0dd16e72-7c28-4b32-b25c-c8f4a2b910f8" x="339" y="519" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q22_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="1dfab245-2a63-4ebc-a6e5-785b6463d300" x="359" y="519" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q22_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="599e7d23-8c58-4713-8b00-248e5ed2a484" x="359" y="508" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q21_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="9c8e938b-7e29-43ae-8cc6-ee603e58ba33" x="339" y="508" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q21_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="6b1818c3-0902-44dc-aff7-47bc0add21e6" x="380" y="483" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q20_na}]]></expression>
+		</element>
+		<element kind="textField" uuid="7f4ab5d9-3789-4a17-8f1e-ef388992d97f" x="360" y="483" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q20_no}]]></expression>
+		</element>
+		<element kind="textField" uuid="da006bad-bec9-49e9-bdc0-bbd1f8a6dc8a" x="340" y="483" width="21" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{q20_yes}]]></expression>
+		</element>
+		<element kind="textField" uuid="2c7976b9-25ce-4fdd-bdc2-07170406c6c6" x="340" y="185" width="30" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{isJsaReviewed} ? "✓" : ""
+]]></expression>
+		</element>
+		<element kind="textField" uuid="a395cbbb-1222-4526-92a3-2284d8ddc60d" x="370" y="185" width="30" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[!$P{isJsaReviewed} ? "✓" : ""
+
+]]></expression>
+		</element>
+	</title>
+</jasperReport>

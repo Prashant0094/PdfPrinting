@@ -367,7 +367,7 @@
 			<text><![CDATA[18]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="staticText" uuid="e64a110e-e147-4ed7-8ff2-a5881adfb647" x="31" y="566" width="379" height="31" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
+		<element kind="staticText" uuid="e64a110e-e147-4ed7-8ff2-a5881adfb647" x="31" y="568" width="379" height="27" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
 			<text><![CDATA[Is there any visible hydrocarbon present in storm water channel within 10 m of Hot Work? If Yes, ensure hydrocarbon removal before starting the Hot Work.]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
@@ -383,7 +383,7 @@
 			<text><![CDATA[20]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="staticText" uuid="a6a3021e-c2c4-4d9f-a895-c95c8759cf0b" x="31" y="627" width="379" height="20" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
+		<element kind="staticText" uuid="a6a3021e-c2c4-4d9f-a895-c95c8759cf0b" x="31" y="626" width="379" height="20" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
 			<text><![CDATA[Are the cables used for welding have any cuts, cracks, burns, or worn out marks?]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
@@ -394,7 +394,7 @@
 			<text><![CDATA[21]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="staticText" uuid="6bfe1e47-27d2-49f2-b237-6c8ba0049e14" x="31" y="644" width="379" height="31" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
+		<element kind="staticText" uuid="6bfe1e47-27d2-49f2-b237-6c8ba0049e14" x="31" y="649" width="379" height="26" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
 			<text><![CDATA[Is approved key available for operating the valve of the cylinders?
 Are cylinder pressure gauges in working condition?]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -406,7 +406,7 @@ Are cylinder pressure gauges in working condition?]]></text>
 			<text><![CDATA[22]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="staticText" uuid="6c47b74c-9c45-4d48-bcee-6bd9ed6930d1" x="31" y="675" width="379" height="20" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
+		<element kind="staticText" uuid="6c47b74c-9c45-4d48-bcee-6bd9ed6930d1" x="31" y="675" width="379" height="18" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
 			<text><![CDATA[Is welding machine used for Hot Work certified?]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
@@ -417,7 +417,7 @@ Are cylinder pressure gauges in working condition?]]></text>
 			<text><![CDATA[23]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="staticText" uuid="5f6e7a72-c3b0-44ff-9981-7fa3548cb972" x="31" y="693" width="379" height="20" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
+		<element kind="staticText" uuid="5f6e7a72-c3b0-44ff-9981-7fa3548cb972" x="31" y="695" width="379" height="18" fontName="Times New Roman" hTextAlign="Left" vTextAlign="Middle">
 			<text><![CDATA[Are Loose cable lugs, damaged / cut cables etc. found?]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
@@ -547,94 +547,94 @@ Are cylinder pressure gauges in working condition?]]></text>
 			<text><![CDATA[Yes]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="05fdfcae-e21f-4af1-aee7-fe987640853a" x="207" y="80" width="91" height="13" fontName="Times New Roman">
+		<element kind="textField" uuid="05fdfcae-e21f-4af1-aee7-fe987640853a" x="207" y="80" width="91" height="13" fontName="Times New Roman" blankWhenNull="true">
 			<expression><![CDATA[$P{phase}]]></expression>
 		</element>
-		<element kind="textField" uuid="9348bd28-fd5d-4ccc-a91f-973527e0ac97" x="221" y="100" width="91" height="13" fontName="Times New Roman" vTextAlign="Top">
+		<element kind="textField" uuid="9348bd28-fd5d-4ccc-a91f-973527e0ac97" x="221" y="100" width="91" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
 			<expression><![CDATA[$P{location}]]></expression>
 		</element>
-		<element kind="textField" uuid="ad7b88c6-3f64-48b0-a461-ffc3d13a1bc1" x="427" y="81" width="91" height="14" fontName="Times New Roman" fontSize="10.0">
+		<element kind="textField" uuid="ad7b88c6-3f64-48b0-a461-ffc3d13a1bc1" x="427" y="81" width="91" height="14" fontName="Times New Roman" fontSize="10.0" blankWhenNull="true">
 			<expression><![CDATA[$P{dateTime}]]></expression>
 		</element>
-		<element kind="textField" uuid="fe1d71ad-8e6f-48ef-b997-5a1ea3bb7102" x="110" y="761" width="230" height="16" fontName="Times New Roman">
+		<element kind="textField" uuid="fe1d71ad-8e6f-48ef-b997-5a1ea3bb7102" x="110" y="761" width="230" height="16" fontName="Times New Roman" blankWhenNull="true">
 			<expression><![CDATA[$P{fieldExecutiveName}]]></expression>
 		</element>
-		<element kind="textField" uuid="d189fe08-4b68-4d45-8412-ccf1e0bb417a" x="32" y="799" width="230" height="16" fontName="Times New Roman" vTextAlign="Middle">
+		<element kind="textField" uuid="d189fe08-4b68-4d45-8412-ccf1e0bb417a" x="32" y="799" width="230" height="16" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
 			<expression><![CDATA[$P{fieldExecutiveDateTime}]]></expression>
 		</element>
-		<element kind="textField" uuid="cd6cf4d4-e274-41e2-a3dd-35bddc5b4c31" x="482" y="157" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="cd6cf4d4-e274-41e2-a3dd-35bddc5b4c31" x="482" y="157" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_1}]]></expression>
 		</element>
-		<element kind="textField" uuid="58c1b346-1de7-4fec-bdd8-ed0556e1ced5" x="482" y="178" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="58c1b346-1de7-4fec-bdd8-ed0556e1ced5" x="482" y="178" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_2}]]></expression>
 		</element>
-		<element kind="textField" uuid="8be3f3a6-4ce9-4594-938c-37654fb1816c" x="482" y="199" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="8be3f3a6-4ce9-4594-938c-37654fb1816c" x="482" y="199" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_3}]]></expression>
 		</element>
-		<element kind="textField" uuid="c1723ea7-0e56-4c78-9200-faa48574141d" x="482" y="221" width="48" height="34" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="c1723ea7-0e56-4c78-9200-faa48574141d" x="482" y="221" width="48" height="34" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_4}]]></expression>
 		</element>
-		<element kind="textField" uuid="4d1f98b1-319a-4dde-ae61-26928af571f0" x="482" y="257" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="4d1f98b1-319a-4dde-ae61-26928af571f0" x="482" y="257" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_5}]]></expression>
 		</element>
-		<element kind="textField" uuid="707f34fe-6779-4f0b-927c-3c9fb53ffaa4" x="482" y="280" width="48" height="31" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="707f34fe-6779-4f0b-927c-3c9fb53ffaa4" x="482" y="280" width="48" height="31" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_6}]]></expression>
 		</element>
-		<element kind="textField" uuid="b962213a-b1b8-4b76-b9ec-eae9a66f8a77" x="482" y="311" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="b962213a-b1b8-4b76-b9ec-eae9a66f8a77" x="482" y="311" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_7}]]></expression>
 		</element>
-		<element kind="textField" uuid="f955836e-98f1-41f6-af15-bc8d0ec6ccd0" x="482" y="331" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="f955836e-98f1-41f6-af15-bc8d0ec6ccd0" x="482" y="331" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_8}]]></expression>
 		</element>
-		<element kind="textField" uuid="b3bfb307-189e-4891-bb47-b8ce24a9121f" x="482" y="351" width="48" height="28" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="b3bfb307-189e-4891-bb47-b8ce24a9121f" x="482" y="351" width="48" height="28" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_9}]]></expression>
 		</element>
-		<element kind="textField" uuid="858812a6-744e-42cc-a1ae-a92035a2332e" x="482" y="381" width="48" height="24" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="858812a6-744e-42cc-a1ae-a92035a2332e" x="482" y="381" width="48" height="24" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_10}]]></expression>
 		</element>
-		<element kind="textField" uuid="c08f9c6a-1001-42f6-8d04-7b5ff5528b03" x="482" y="407" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="c08f9c6a-1001-42f6-8d04-7b5ff5528b03" x="482" y="407" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_11}]]></expression>
 		</element>
-		<element kind="textField" uuid="6b1304ec-48b7-414d-bfcb-718737dd43be" x="482" y="428" width="48" height="28" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="6b1304ec-48b7-414d-bfcb-718737dd43be" x="482" y="428" width="48" height="28" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_12}]]></expression>
 		</element>
-		<element kind="textField" uuid="24d0d1ce-1666-4159-b0fa-475dff3a50ab" x="482" y="459" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="24d0d1ce-1666-4159-b0fa-475dff3a50ab" x="482" y="459" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_13}]]></expression>
 		</element>
-		<element kind="textField" uuid="bb9cfafa-4c3b-49a3-9036-e143c6233983" x="482" y="482" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="bb9cfafa-4c3b-49a3-9036-e143c6233983" x="482" y="482" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_14}]]></expression>
 		</element>
-		<element kind="textField" uuid="9c3fa4aa-fb0a-49a0-b02e-c64ea1ea6536" x="482" y="504" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="9c3fa4aa-fb0a-49a0-b02e-c64ea1ea6536" x="482" y="504" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_15}]]></expression>
 		</element>
-		<element kind="textField" uuid="b1343cce-1dd5-462f-bcd1-ad46d887a1ad" x="482" y="526" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="b1343cce-1dd5-462f-bcd1-ad46d887a1ad" x="482" y="526" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_16}]]></expression>
 		</element>
-		<element kind="textField" uuid="8c93a777-2c15-4c4d-a5b9-6f03a6e8ec77" x="482" y="547" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="8c93a777-2c15-4c4d-a5b9-6f03a6e8ec77" x="482" y="547" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_17}]]></expression>
 		</element>
-		<element kind="textField" uuid="06f0aa97-1830-4669-81ef-fd26aa31c80c" x="482" y="568" width="48" height="27" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="06f0aa97-1830-4669-81ef-fd26aa31c80c" x="482" y="568" width="48" height="27" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_18}]]></expression>
 		</element>
-		<element kind="textField" uuid="866e8559-24d7-42b7-a098-21a8061dffb7" x="482" y="597" width="48" height="28" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="866e8559-24d7-42b7-a098-21a8061dffb7" x="482" y="597" width="48" height="28" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_19}]]></expression>
 		</element>
-		<element kind="textField" uuid="c3a71c72-bcea-47cc-9ed5-c161fe8d4545" x="482" y="627" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="c3a71c72-bcea-47cc-9ed5-c161fe8d4545" x="482" y="627" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_20}]]></expression>
 		</element>
-		<element kind="textField" uuid="327f49c6-9265-4f3c-b7d3-85d4bc495ef4" x="482" y="649" width="48" height="24" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="327f49c6-9265-4f3c-b7d3-85d4bc495ef4" x="482" y="649" width="48" height="24" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_21}]]></expression>
 		</element>
-		<element kind="textField" uuid="e6376b99-5c0d-4a7b-b4d7-6535c8c2e2b9" x="482" y="675" width="48" height="18" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="e6376b99-5c0d-4a7b-b4d7-6535c8c2e2b9" x="482" y="675" width="48" height="18" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_22}]]></expression>
 		</element>
-		<element kind="textField" uuid="7bf35f71-d27b-43cb-8d20-a47ded2e045b" x="482" y="694" width="48" height="19" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="7bf35f71-d27b-43cb-8d20-a47ded2e045b" x="482" y="694" width="48" height="19" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_23}]]></expression>
 		</element>
-		<element kind="textField" uuid="14be768a-35be-4c73-bfbd-1bd0f53fb1b6" x="482" y="714" width="48" height="20" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="14be768a-35be-4c73-bfbd-1bd0f53fb1b6" x="482" y="714" width="48" height="20" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_24}]]></expression>
 		</element>
-		<element kind="textField" uuid="098a857a-8fee-4e75-9cb2-099ab1819e2a" x="482" y="737" width="48" height="19" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="098a857a-8fee-4e75-9cb2-099ab1819e2a" x="482" y="737" width="48" height="19" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_25}]]></expression>
 		</element>
 	</title>

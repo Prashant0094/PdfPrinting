@@ -1,0 +1,53 @@
+ {
+      "id": 0,
+      "dateTime": "2025-07-29T05:16:15.372Z",
+      "company": "Some Company",
+      "location": "SOMEWHERE !",
+      "task": "This task is to cover 2 lines for checking the spacing and distancing ! @@@@@@@@@@$$$$$$$$$$$$$$$$$$$$$@@@@",
+      "isJsaReviewed": true,
+      "additionalControls": "string will be the input but it has many lines so checking the spacing and lining ...........................@@@ :-< Random Letters included >-:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+      "engineerName": "ENGINEER",
+      "enginnerDateTime": "2025-07-29T05:16:15.372Z",
+      "sign": "string",
+      "lmraChecklist": [
+        {
+          "id": 0,
+          "checkListText": "string",
+          "remark": "YES"
+        },
+       {
+          "id": 0,
+          "checkListText": "string",
+          "remark": "YES"
+        },
+       {
+          "id": 0,
+          "checkListText": "string",
+          "remark": "NA"
+        },
+       {
+          "id": 0,
+          "checkListText": "string",
+          "remark": "NO"
+        },
+  {
+          "id": 0,
+          "checkListText": "string",
+          "remark": "na"
+        }
+      ],
+      "lmraWorkerDetails": [
+        {
+          "id": 0,
+          "workerName": "Worker 1",
+          "sign": "string",
+          "isDeleted": true
+        },
+      {
+          "id": 0,
+          "workerName": "Worker 2",
+          "sign": "s",
+          "isDeleted": true
+        }
+      ]
+    }

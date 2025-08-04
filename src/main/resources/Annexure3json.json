@@ -1,0 +1,60 @@
+ {
+    "id": 0,
+    "dateTimeFrom": "2025-08-04T07:07:30.969Z",
+    "dateTimeTo": "2025-08-04T07:07:30.969Z",
+    "nameOfContractor": "Contractor",
+    "department": "Mechanical",
+    "extensionFrom": "25-6-2025",
+    "extensionTo": "25-8-2025",
+    "isOptionOne": true,
+    "isOptionTwo": true,
+    "machineList": [
+      {
+        "id": 0,
+        "machineType": "CNC",
+        "machineNo": "C1234",
+        "tagNo": "7642827",
+        "location": "WareHs1",
+        "cwp": "Something",
+        "typeOfConnection": "3 phase"
+      },
+     {
+        "id": 0,
+        "machineType": "ANY",
+        "machineNo": "C1245",
+        "tagNo": "7642827",
+        "location": "WareHs2",
+        "cwp": "Something",
+        "typeOfConnection": "2 phase"
+      }
+    ],
+    "annexure3CheckedByList": [
+      {
+        "id": 0,
+        "name": "Checker 1",
+        "dateTime": "2025-08-04T07:07:30.969Z",
+        "signature": "string",
+        "status": "string",
+        "epEcNo": "1234"
+      }
+    ],
+    "checkpointsRequests": [
+      {
+        "id": 0,
+        "response": "Yes",
+        "checkpointText": "string"
+      },
+      {
+        "id": 0,
+        "response": "Yes",
+        "checkpointText": "string"
+      },
+      {
+        "id": 0,
+        "response": "No",
+        "checkpointText": "string"
+      }
+
+    ],
+    "wiremanLicense": "string"
+  }

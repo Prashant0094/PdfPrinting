@@ -1,5 +1,6 @@
 package com.prashant.pdfprinting.controller;
 
+import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Map;
 
@@ -13,9 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.prashant.pdfprinting.dto.Annexure1DTO;
 import com.prashant.pdfprinting.dto.Annexure2DTO;
+import com.prashant.pdfprinting.dto.Annexure3DTO;
 import com.prashant.pdfprinting.dto.Appendix1DTO;
 import com.prashant.pdfprinting.dto.Appendix2DTO;
+import com.prashant.pdfprinting.dto.Appendix3DTO;
 import com.prashant.pdfprinting.dto.GasCuttingDTO;
+import com.prashant.pdfprinting.dto.LmraDTO;
+import com.prashant.pdfprinting.dto.ToolBoxTalkDTO;
 import com.prashant.pdfprinting.dto.WeldingSafetyDTO;
 import com.prashant.pdfprinting.flattner.JsonFlattener;
 import com.prashant.pdfprinting.service.ReportService;
@@ -134,4 +139,67 @@ public class ReportController {
                 .contentType(MediaType.APPLICATION_PDF)
                 .body(pdf);
     }
+    
+    @GetMapping("/lmra")
+    public ResponseEntity<byte[]> generateLmraPdf() throws Exception {
+
+        InputStream is = getClass().getResourceAsStream("/lmra.json");
+        if (is == null) {
+            throw new FileNotFoundException("lmra.json not found in resources.");
+        }
+        LmraDTO dto = objectMapper.readValue(is, LmraDTO.class);
+        Map<String, Object> params = JsonFlattener.flatten(dto);
+        byte[] pdf = reportService.generateLmraPdf(dto, params);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=lmra_report.pdf")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
+    }
+    @GetMapping("/appendix3")
+    public ResponseEntity<byte[]> generateGasTestingPdf() throws Exception {
+
+        InputStream is = getClass().getResourceAsStream("/appendix3json.json"); 
+        if (is == null) {
+            throw new FileNotFoundException("appendix3json.json not found in resources.");
+        }
+        Appendix3DTO dto = objectMapper.readValue(is, Appendix3DTO.class);
+        Map<String, Object> params = JsonFlattener.flatten(dto);
+        byte[] pdf = reportService.generateAppendix3Pdf(dto, params);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=appendix3.pdf")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
+    }
+    @GetMapping("/tbt")
+    public ResponseEntity<byte[]> generateToolBoxTalkPdf() throws Exception {
+
+        InputStream is = getClass().getResourceAsStream("/ToolBoxTalk.json"); 
+        if (is == null) {
+            throw new FileNotFoundException("toolboxtalk.json not found in resources.");
+        }
+        ToolBoxTalkDTO dto = objectMapper.readValue(is, ToolBoxTalkDTO.class);
+        Map<String, Object> params = JsonFlattener.flatten(dto);
+        byte[] pdf = reportService.generateToolBoxTalkPdf(dto, params);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=toolboxtalk.pdf")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
+    }
+    @GetMapping("/annexure3")
+    public ResponseEntity<byte[]> generateAnnexure3Pdf() throws Exception {
+
+        InputStream is = getClass().getResourceAsStream("/Annexure3json.json"); 
+        if (is == null) {
+            throw new FileNotFoundException("Annexure3.json not found in resources.");
+        }
+        Annexure3DTO dto = objectMapper.readValue(is, Annexure3DTO.class);
+        Map<String, Object> params = JsonFlattener.flatten(dto);
+        byte[] pdf = reportService.generateAnnexure3Pdf(dto);	
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=annexure3.pdf")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
+    }
+
 }
+

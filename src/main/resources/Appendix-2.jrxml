@@ -433,120 +433,120 @@ Are conflicting activities like painting & grit blasting planned simultaneously,
 			<text><![CDATA[No]]></text>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="30955e34-d301-4c9b-b3c0-e854ff83ef2b" x="500" y="129" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="30955e34-d301-4c9b-b3c0-e854ff83ef2b" x="500" y="129" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_1}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="39f30483-6a0d-405e-ac13-3225746a58ee" x="500" y="146" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="39f30483-6a0d-405e-ac13-3225746a58ee" x="500" y="146" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_2}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="fbac6c59-d254-4acb-b710-40bdad07b94c" x="500" y="162" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="fbac6c59-d254-4acb-b710-40bdad07b94c" x="500" y="162" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_3}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="7d20a016-65b5-4b2c-ad6f-96ab96651a1e" x="500" y="177" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="7d20a016-65b5-4b2c-ad6f-96ab96651a1e" x="500" y="177" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_4}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="d1983351-0284-4197-bb82-333b79e33fc6" x="500" y="193" width="48" height="30" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="d1983351-0284-4197-bb82-333b79e33fc6" x="500" y="193" width="48" height="30" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_5}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="74b9f258-f8db-44ab-b9b5-665ba3de7c70" x="500" y="225" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="74b9f258-f8db-44ab-b9b5-665ba3de7c70" x="500" y="225" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_6}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="f20e240f-4237-4324-9005-2814b47939f3" x="500" y="241" width="48" height="29" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="f20e240f-4237-4324-9005-2814b47939f3" x="500" y="241" width="48" height="29" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_7}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="925cc6e1-bca5-470c-8d99-ba24ad9703b7" x="500" y="273" width="48" height="28" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="925cc6e1-bca5-470c-8d99-ba24ad9703b7" x="500" y="273" width="48" height="28" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_8}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="d949aaba-6263-44bd-ace2-361cdacc1c48" x="500" y="303" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="d949aaba-6263-44bd-ace2-361cdacc1c48" x="500" y="303" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_9}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="829edcd9-8528-452c-90a3-382590ec5215" x="500" y="335" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="829edcd9-8528-452c-90a3-382590ec5215" x="500" y="335" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_10}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="2969846e-2230-4abf-869f-e24ef719ae19" x="500" y="351" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="2969846e-2230-4abf-869f-e24ef719ae19" x="500" y="351" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_11}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="7a670654-b955-4da0-8875-496fbdb41efe" x="500" y="367" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="7a670654-b955-4da0-8875-496fbdb41efe" x="500" y="367" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_12}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="1411404b-8979-4501-857c-c0f552b86034" x="500" y="383" width="48" height="46" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="1411404b-8979-4501-857c-c0f552b86034" x="500" y="383" width="48" height="46" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_13}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="12458817-4b72-44eb-bd01-3637bb378bc0" x="500" y="431" width="48" height="13" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="12458817-4b72-44eb-bd01-3637bb378bc0" x="500" y="431" width="48" height="13" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_14}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="0a15ab4d-9264-4606-8b4d-df2efe8162cf" x="500" y="446" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="0a15ab4d-9264-4606-8b4d-df2efe8162cf" x="500" y="446" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_15}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="55d75b12-20b0-4893-b17f-253dc790b661" x="500" y="463" width="48" height="14" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="55d75b12-20b0-4893-b17f-253dc790b661" x="500" y="463" width="48" height="14" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_16}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="747caa75-bd82-4e65-9d39-65e553f48714" x="500" y="481" width="48" height="26" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="747caa75-bd82-4e65-9d39-65e553f48714" x="500" y="481" width="48" height="26" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_17}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="c76f8a8f-d886-40c3-b2b0-25b0afe46f36" x="500" y="513" width="48" height="26" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="c76f8a8f-d886-40c3-b2b0-25b0afe46f36" x="500" y="513" width="48" height="26" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_18}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="982aabc7-4fd5-438b-83a1-5fe942983d99" x="500" y="542" width="48" height="27" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="982aabc7-4fd5-438b-83a1-5fe942983d99" x="500" y="542" width="48" height="27" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_19}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="4091a91b-77f6-4578-bba7-b01a4d363594" x="500" y="573" width="48" height="14" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="4091a91b-77f6-4578-bba7-b01a4d363594" x="500" y="573" width="48" height="14" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_20}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="3480fb71-8afd-4e0a-8858-d087db5b35d2" x="500" y="591" width="48" height="15" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="3480fb71-8afd-4e0a-8858-d087db5b35d2" x="500" y="591" width="48" height="15" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_21}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="a7f2d9ba-c92c-47da-a8a9-ebd694a519ca" x="500" y="616" width="48" height="46" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="a7f2d9ba-c92c-47da-a8a9-ebd694a519ca" x="500" y="616" width="48" height="46" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_22}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="6be7c6df-187b-4a0d-b206-43ee95d5377e" x="500" y="673" width="48" height="26" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="6be7c6df-187b-4a0d-b206-43ee95d5377e" x="500" y="673" width="48" height="26" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_23}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="5feb7345-3a77-49d0-bef1-917965f5e573" x="500" y="704" width="48" height="28" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="5feb7345-3a77-49d0-bef1-917965f5e573" x="500" y="704" width="48" height="28" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_24}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="f8f5ddcd-cf10-4557-8451-caf62f090eeb" x="500" y="736" width="48" height="29" fontName="Times New Roman" bold="true" hTextAlign="Center" vTextAlign="Middle">
+		<element kind="textField" uuid="f8f5ddcd-cf10-4557-8451-caf62f090eeb" x="500" y="736" width="48" height="29" fontName="Times New Roman" blankWhenNull="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
 			<expression><![CDATA[$P{actualAns_25}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="a22176d1-b6b3-43e2-a1b9-d8ab6a4c101b" x="208" y="69" width="91" height="13" fontName="Times New Roman" vTextAlign="Middle">
+		<element kind="textField" uuid="a22176d1-b6b3-43e2-a1b9-d8ab6a4c101b" x="208" y="69" width="91" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
 			<expression><![CDATA[$P{phase}]]></expression>
 		</element>
-		<element kind="textField" uuid="b29caf63-961d-4e21-8892-55a366767346" x="431" y="69" width="91" height="13" fontName="Times New Roman" fontSize="10.0" vTextAlign="Middle">
+		<element kind="textField" uuid="b29caf63-961d-4e21-8892-55a366767346" x="431" y="69" width="91" height="13" fontName="Times New Roman" fontSize="10.0" blankWhenNull="true" vTextAlign="Middle">
 			<expression><![CDATA[$P{dateTime}]]></expression>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</element>
-		<element kind="textField" uuid="1656459e-2323-43a9-9ea9-59d2fa9dce24" x="222" y="84" width="91" height="13" fontName="Times New Roman" vTextAlign="Top">
+		<element kind="textField" uuid="1656459e-2323-43a9-9ea9-59d2fa9dce24" x="222" y="84" width="91" height="13" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Top">
 			<expression><![CDATA[$P{location}]]></expression>
 		</element>
-		<element kind="textField" uuid="e58e93b2-f796-4b08-a64d-3cbf596d22cb" x="29" y="796" width="106" height="14" fontName="Times New Roman" fontSize="10.0" vTextAlign="Middle">
+		<element kind="textField" uuid="e58e93b2-f796-4b08-a64d-3cbf596d22cb" x="29" y="796" width="106" height="14" fontName="Times New Roman" fontSize="10.0" blankWhenNull="true" vTextAlign="Middle">
 			<expression><![CDATA[$P{maintenanceRepresentiveDateTime}]]></expression>
 		</element>
-		<element kind="textField" uuid="285270f2-9301-4ee8-ba8f-8872562fc7ff" x="206" y="782" width="91" height="14" fontName="Times New Roman" bold="false" vTextAlign="Middle">
+		<element kind="textField" uuid="285270f2-9301-4ee8-ba8f-8872562fc7ff" x="206" y="782" width="91" height="14" fontName="Times New Roman" blankWhenNull="true" bold="false" vTextAlign="Middle">
 			<expression><![CDATA[$P{maintenanceRepresentive}]]></expression>
 		</element>
 	</title>

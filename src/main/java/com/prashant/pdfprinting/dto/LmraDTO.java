@@ -29,7 +29,7 @@ public class LmraDTO {
     public static class LmraChecklistItem {
         private int id;
         private String checkListText;
-        private String remark; // "YES", "NO", or "N/A"
+        private String remark;    // For the place : Tick in "YES", "NO", or "N/A"
     }
 
     @Data
