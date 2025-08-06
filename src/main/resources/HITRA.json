@@ -1,0 +1,89 @@
+{
+    "id": 0,
+    "dateTime": "2025-08-04T07:07:30.969Z",
+    "plantId": 0,
+    "siteName": "ABC Site",
+    "noOfPeopleExposed": "10",
+    "mainTask": "string",
+    "hitraIssuer": {
+      "id": 0,
+      "name": "Issuer Man",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "sign": "string"
+    },
+    "hitraAcceptor": {
+      "id": 0,
+      "name": "Acceptor Man",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "sign": "string"
+    },
+    "hitraSupervisor": {
+      "id": 0,
+      "name": "Supervisor Man",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "sign": "string"
+    },
+    "subTasks": [
+      {
+        "id": 0,
+        "subTaskTitle": "string",
+        "hazardDescription": "string",
+        "initialImpact": "A",
+        "initialProbability": "4",
+        "initialRisk": "C",
+        "controls": [
+          {
+            "id": 0,
+            "controlText": "string",
+            "actionParty": "string"
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "subTaskTitle": "string",
+        "hazardDescription": "string",
+        "initialImpact": "G",
+        "initialProbability": "5",
+        "initialRisk": "C",
+        "controls": [
+          {
+            "id": 0,
+            "controlText": "string",
+            "actionParty": "string"
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "subTaskTitle": "string",
+        "hazardDescription": "string",
+        "initialImpact": "A",
+        "initialProbability": "6",
+        "initialRisk": "G",
+        "controls": [
+          {
+            "id": 0,
+            "controlText": "string",
+            "actionParty": "string"
+          }
+        ]
+      }
+    ],
+    "hitraTeam": [
+      {
+        "id": 0,
+        "role": "string",
+        "name": "Full Name Here",
+        "dateTime": "2025-08-04T07:07:30.969Z",
+        "sign": "string"
+      },
+      {
+        "id": 0,
+        "role": "string",
+        "name": "Another Name Here",
+        "dateTime": "2025-08-04T07:07:30.969Z",
+        "sign": "string"
+      }
+    ]
+  }

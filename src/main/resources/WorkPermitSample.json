@@ -1,0 +1,108 @@
+{
+  "id": 0,
+  "permitType": "COLD WORK",
+  "uniqueId": 0,
+  "plantId": 0,
+  "plantArea": 0,
+  "equipmentName": "Some Equipment",
+  "equipmentTagNo": "Tag 123",
+  "jobDescription": "Heavy Work",
+  "contractorName": "Contractor 1",
+  "personInvolved": 0,
+  "status": "string",
+  "stage": "string",
+  "validFrom": "2025-08-04T07:07:30.969Z",
+  "validTo": "2025-08-04T07:07:30.969Z",
+  "noOfApprover": 0,
+  "approver1": 0,
+  "approver2": 0,
+  "approver3": 0,
+  "assignedIssuer": 0,
+  "sectionC": {
+    "id": 0,
+    "nature": "Welding/Gas Cutting,Hydrojetting,Photography,Excavation",
+    "otherNature": "Reports"
+  },
+  "sectionD": {
+    "id": 0,
+    "tools": "Welding Machine,Gas Cylinder,Grinding machine",
+    "otherTools": "Some Tool"
+  },
+  "sectionE": {
+    "id": 0,
+    "hazards": "Fire Hazard,Electrical,Presurized,Fall from Height",
+    "otherHazard": "Some Hazard",
+    "noOfPersons": 0
+  },
+  "sectionG": {
+    "id": 0,
+    "preFire": "Fire Extingusher,SCBA,Dust Mask,Face Sheild",
+    "otherPrefire": "Some Prefire",
+    "specialGloves": 0,
+    "protectiveSuit": "ABC Suit"
+  },
+  "sectionH": [
+    {
+      "id": 1,
+      "gasTest": "string",
+      "result": "Pass",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "initials": "Something",
+      "sign": "string"
+    },
+    {
+      "id": 2,
+      "gasTest": "string",
+      "result": "Fail",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "initials": "Something",
+      "sign": "string"
+    }
+  ],
+  "sectionK": [
+    {
+      "id": 0,
+      "status": "string",
+      "role": "string",
+      "name": "Some Name",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "sign": "string"
+    }
+  ],
+  "sectionI": [
+    {
+      "id": 0,
+      "role": "string",
+      "name": "Some Name",
+      "dateTime": "2025-08-04T07:07:30.969Z",
+      "sign": "string"
+    }
+  ],
+  "fadditionalInstructions":"Some Instructions",
+  "sectionF": [
+    {
+      "id": 0,
+      "description": "Isolated/Blinded",
+      "isChecked": true,
+      "inputTextA": "string",
+      "inputTextB": "string",
+      "inputTextC": "string"
+    },
+   {
+      "id": 0,
+      "description": "Isolated/Blinded Tag Nos",
+      "isChecked": true,
+      "inputTextA": "T123",
+      "inputTextB": "string",
+      "inputTextC": "string"
+    },
+       {
+      "id": 0,
+      "description": "Ladders",
+      "isChecked": true,
+      "inputTextA": "Steel Ladder",
+      "inputTextB": "string",
+      "inputTextC": "string"
+    }
+  ]
+}

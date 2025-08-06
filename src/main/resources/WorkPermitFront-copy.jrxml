@@ -1,0 +1,1978 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Work-Permit Front" language="java" columnCount="1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="0" uuid="1eea0b31-4464-4daf-8a2b-1f6683d28fd9">
+	<parameter name="hazard_fire_extinguisher" class="java.lang.String"/>
+	<parameter name="hazard_fire_blanket" class="java.lang.String"/>
+	<parameter name="hazard_fire_water" class="java.lang.String"/>
+	<parameter name="hazard_aireline_mask" class="java.lang.String"/>
+	<parameter name="hazard_scba" class="java.lang.String"/>
+	<parameter name="hazard_cartridge_mask" class="java.lang.String"/>
+	<parameter name="hazard_dust_mask" class="java.lang.String"/>
+	<parameter name="hazard_face_shield" class="java.lang.String"/>
+	<parameter name="hazard_goggles" class="java.lang.String"/>
+	<parameter name="hazard_body_harness" class="java.lang.String"/>
+	<parameter name="hazard_others_specify1" class="java.lang.String"/>
+	<parameter name="hazard_protective_suit" class="java.lang.String"/>
+	<parameter name="hazard_special_gloves" class="java.lang.String"/>
+	<parameter name="nature_welding_gas_cutting" class="java.lang.String"/>
+	<parameter name="nature_radiation_sources" class="java.lang.String"/>
+	<parameter name="nature_opening_lines_equipment" class="java.lang.String"/>
+	<parameter name="nature_electrical_system" class="java.lang.String"/>
+	<parameter name="nature_hydrojetting" class="java.lang.String"/>
+	<parameter name="nature_grinding" class="java.lang.String"/>
+	<parameter name="nature_instrument_system" class="java.lang.String"/>
+	<parameter name="nature_photography" class="java.lang.String"/>
+	<parameter name="nature_fragile_roof" class="java.lang.String"/>
+	<parameter name="nature_work_at_height" class="java.lang.String"/>
+	<parameter name="nature_fire_water_isolation" class="java.lang.String"/>
+	<parameter name="nature_online_leak_sealing" class="java.lang.String"/>
+	<parameter name="nature_excavation" class="java.lang.String"/>
+	<parameter name="nature_hot_tapping" class="java.lang.String"/>
+	<parameter name="nature_closure_of_roads" class="java.lang.String"/>
+	<parameter name="nature_others_specify" class="java.lang.String"/>
+	<parameter name="nature_preventive_maintenance" class="java.lang.String"/>
+	<parameter name="nature_insulation_painting" class="java.lang.String"/>
+	<parameter name="tools_welding_machine" class="java.lang.String"/>
+	<parameter name="tools_hydrojetting_machine" class="java.lang.String"/>
+	<parameter name="tools_gas_cylinder" class="java.lang.String"/>
+	<parameter name="tools_air_hydralic" class="java.lang.String"/>
+	<parameter name="tools_non_flameproof" class="java.lang.String"/>
+	<parameter name="tools_others_specify" class="java.lang.String"/>
+	<parameter name="tools_vehicle_crane" class="java.lang.String"/>
+	<parameter name="tools_portable_electrical" class="java.lang.String"/>
+	<parameter name="tools_grinding_machine" class="java.lang.String"/>
+	<parameter name="tools_stress_relieving" class="java.lang.String"/>
+	<parameter name="hazard_fire" class="java.lang.String"/>
+	<parameter name="hazard_electrical" class="java.lang.String"/>
+	<parameter name="hazard_pyrophoric" class="java.lang.String"/>
+	<parameter name="hazard_pressurized" class="java.lang.String"/>
+	<parameter name="hazard_toxic" class="java.lang.String"/>
+	<parameter name="hazard_oxygen" class="java.lang.String"/>
+	<parameter name="hazard_radiation" class="java.lang.String"/>
+	<parameter name="hazard_conflict" class="java.lang.String"/>
+	<parameter name="hazard_fall" class="java.lang.String"/>
+	<parameter name="hazard_dust" class="java.lang.String"/>
+	<parameter name="hazard_confined_space" class="java.lang.String"/>
+	<parameter name="hazard_hot_surface" class="java.lang.String"/>
+	<parameter name="hazard_underground" class="java.lang.String"/>
+	<parameter name="hazard_cavein" class="java.lang.String"/>
+	<parameter name="hazard_others_specify" class="java.lang.String"/>
+	<parameter name="prep_isolated_blinded" class="java.lang.String"/>
+	<parameter name="prep_isolated_blinded_check_sheet_no" class="java.lang.String"/>
+	<parameter name="prep_isolated_blinded_check_sheet_no_a" class="java.lang.String"/>
+	<parameter name="prep_isolated_blinded_tag_nos" class="java.lang.String"/>
+	<parameter name="prep_isolated_blinded_tag_nos_a" class="java.lang.String"/>
+	<parameter name="prep_depressurized_drained_washed_steamed_purged_completely" class="java.lang.String"/>
+	<parameter name="prep_escape_route_checked_clear" class="java.lang.String"/>
+	<parameter name="prep_electrical_isolation_restoration_tag_nos" class="java.lang.String"/>
+	<parameter name="prep_electrical_isolation_restoration_tag_nos_a" class="java.lang.String"/>
+	<parameter name="prep_radioactive_source_isolated_tag_nos" class="java.lang.String"/>
+	<parameter name="prep_radioactive_source_isolated_tag_nos_a" class="java.lang.String"/>
+	<parameter name="prep_filter_water_network_isolation_procedure" class="java.lang.String"/>
+	<parameter name="prep_compliance_check_sheet_no" class="java.lang.String"/>
+	<parameter name="prep_compliance_check_sheet_no_a" class="java.lang.String"/>
+	<parameter name="prep_online_leak_sealing_procedure_compliance" class="java.lang.String"/>
+	<parameter name="prep_full_body_harness_with_life_line" class="java.lang.String"/>
+	<parameter name="prep_ventilation_ensured_blower_air_mover_provided" class="java.lang.String"/>
+	<parameter name="prep_area_barricaded" class="java.lang.String"/>
+	<parameter name="prep_hot_tapping_procedure_compliance" class="java.lang.String"/>
+	<parameter name="prep_excavation_clearance_obtained" class="java.lang.String"/>
+	<parameter name="prep_excavation_clearance_obtained_a" class="java.lang.String"/>
+	<parameter name="prep_ladders" class="java.lang.String"/>
+	<parameter name="prep_ladders_a" class="java.lang.String"/>
+	<parameter name="prep_scaffolding" class="java.lang.String"/>
+	<parameter name="prep_scaffolding_a" class="java.lang.String"/>
+	<parameter name="prep_pyrophoric_material_removed_kept_wet" class="java.lang.String"/>
+	<parameter name="prep_risk_assessment_sheet_no" class="java.lang.String"/>
+	<parameter name="prep_risk_assessment_sheet_no_a" class="java.lang.String"/>
+	<parameter name="prep_tool_box_talk_delivered" class="java.lang.String"/>
+	<parameter name="prep_8_mts_area_checked_for_combustible_material" class="java.lang.String"/>
+	<parameter name="prep_hydro_jetting_procedure_compliance" class="java.lang.String"/>
+	<parameter name="prep_cover_protect_sewar_drain_channel" class="java.lang.String"/>
+	<parameter name="prep_protect_surrounding_area_from_sparks_fire" class="java.lang.String"/>
+	<parameter name="prep_ground_the_welding_machine_and_electrical_equipment" class="java.lang.String"/>
+	<parameter name="prep_use_24_volt_hand_lamp_flameproof" class="java.lang.String"/>
+	<parameter name="prep_attendant_firewatch_permit_holder_required" class="java.lang.String"/>
+	<parameter name="prep_attendant_firewatch_permit_holder_required_a" class="java.lang.String"/>
+	<parameter name="prep_attendant_firewatch_permit_holder_required_b" class="java.lang.String"/>
+	<parameter name="prep_attendant_firewatch_permit_holder_required_c" class="java.lang.String"/>
+	<parameter name="prep_adequate_lighting" class="java.lang.String"/>
+	<parameter name="prep_procedure_followed_for_handrail_grating_removal" class="java.lang.String"/>
+	<parameter name="prep_others_specify" class="java.lang.String"/>
+	<parameter name="prep_others_specify_a" class="java.lang.String"/>
+	<parameter name="fromTime" class="java.lang.String"/>
+	<parameter name="toTime" class="java.lang.String"/>
+	<parameter name="equipmentTagNo" class="java.lang.String"/>
+	<parameter name="date" class="java.lang.String"/>
+	<parameter name="contractorName" class="java.lang.String"/>
+	<parameter name="jobDescription" class="java.lang.String"/>
+	<parameter name="equipmentName" class="java.lang.String"/>
+	<parameter name="gas_test_result_1" class="java.lang.String"/>
+	<parameter name="gas_test_time_1" class="java.lang.String"/>
+	<parameter name="gas_test_sign_1" class="java.lang.String"/>
+	<parameter name="gas_test_initials_1" class="java.lang.String"/>
+	<parameter name="gas_test_result_2" class="java.lang.String"/>
+	<parameter name="gas_test_time_2" class="java.lang.String"/>
+	<parameter name="gas_test_sign_2" class="java.lang.String"/>
+	<parameter name="gas_test_initials_2" class="java.lang.String"/>
+	<parameter name="gas_test_result_3" class="java.lang.String"/>
+	<parameter name="gas_test_time_3" class="java.lang.String"/>
+	<parameter name="gas_test_sign_3" class="java.lang.String"/>
+	<parameter name="gas_test_initials_3" class="java.lang.String"/>
+	<parameter name="gas_test_result_4" class="java.lang.String"/>
+	<parameter name="gas_test_time_4" class="java.lang.String"/>
+	<parameter name="gas_test_sign_4" class="java.lang.String"/>
+	<parameter name="gas_test_initials_4" class="java.lang.String"/>
+	<parameter name="gas_test_result_5" class="java.lang.String"/>
+	<parameter name="gas_test_time_5" class="java.lang.String"/>
+	<parameter name="gas_test_sign_5" class="java.lang.String"/>
+	<parameter name="gas_test_initials_5" class="java.lang.String"/>
+	<parameter name="gas_test_result_6" class="java.lang.String"/>
+	<parameter name="gas_test_time_6" class="java.lang.String"/>
+	<parameter name="gas_test_sign_6" class="java.lang.String"/>
+	<parameter name="gas_test_initials_6" class="java.lang.String"/>
+	<parameter name="signatory_name_1" class="java.lang.String"/>
+	<parameter name="signatory_role_1" class="java.lang.String"/>
+	<parameter name="signatory_time_1" class="java.lang.String"/>
+	<parameter name="signatory_sign_1" class="java.lang.String"/>
+	<parameter name="signatory_name_2" class="java.lang.String"/>
+	<parameter name="signatory_role_2" class="java.lang.String"/>
+	<parameter name="signatory_time_2" class="java.lang.String"/>
+	<parameter name="signatory_sign_2" class="java.lang.String"/>
+	<parameter name="signatory_name_3" class="java.lang.String"/>
+	<parameter name="signatory_role_3" class="java.lang.String"/>
+	<parameter name="signatory_time_3" class="java.lang.String"/>
+	<parameter name="signatory_sign_3" class="java.lang.String"/>
+	<parameter name="signatory_name_4" class="java.lang.String"/>
+	<parameter name="signatory_role_4" class="java.lang.String"/>
+	<parameter name="signatory_time_4" class="java.lang.String"/>
+	<parameter name="signatory_sign_4" class="java.lang.String"/>
+	<parameter name="signatory_name_5" class="java.lang.String"/>
+	<parameter name="signatory_role_5" class="java.lang.String"/>
+	<parameter name="signatory_time_5" class="java.lang.String"/>
+	<parameter name="signatory_sign_5" class="java.lang.String"/>
+	<parameter name="signatory_name_6" class="java.lang.String"/>
+	<parameter name="signatory_role_6" class="java.lang.String"/>
+	<parameter name="signatory_time_6" class="java.lang.String"/>
+	<parameter name="signatory_sign_6" class="java.lang.String"/>
+	<parameter name="approval_status_1" class="java.lang.String"/>
+	<parameter name="approval_name_1" class="java.lang.String"/>
+	<parameter name="approval_role_1" class="java.lang.String"/>
+	<parameter name="approval_time_1" class="java.lang.String"/>
+	<parameter name="approval_sign_1" class="java.lang.String"/>
+	<parameter name="approval_status_2" class="java.lang.String"/>
+	<parameter name="hazard_other_prefire1" class="java.lang.String"/>
+	<parameter name="hazard_other_hazard1" class="java.lang.String"/>
+	<parameter name="tools_other_tools1" class="java.lang.String"/>
+	<parameter name="approval_name_2" class="java.lang.String"/>
+	<parameter name="approval_role_2" class="java.lang.String"/>
+	<parameter name="approval_time_2" class="java.lang.String"/>
+	<parameter name="approval_sign_2" class="java.lang.String"/>
+	<parameter name="approval_status_3" class="java.lang.String"/>
+	<parameter name="approval_name_3" class="java.lang.String"/>
+	<parameter name="approval_role_3" class="java.lang.String"/>
+	<parameter name="approval_time_3" class="java.lang.String"/>
+	<parameter name="approval_sign_3" class="java.lang.String"/>
+	<parameter name="hazard_protective_suit1" class="java.lang.String"/>
+	<parameter name="nature_other_specify1" class="java.lang.String"/>
+	<parameter name="approval_date_3" class="java.lang.String"/>
+	<parameter name="approval_date_2" class="java.lang.String"/>
+	<parameter name="signatory_date_5" class="java.lang.String"/>
+	<parameter name="signatory_date_4" class="java.lang.String"/>
+	<parameter name="signatory_date_3" class="java.lang.String"/>
+	<parameter name="signatory_date_2" class="java.lang.String"/>
+	<parameter name="signatory_date_1" class="java.lang.String"/>
+	<parameter name="signatory_date_6" class="java.lang.String"/>
+	<parameter name="approval_date_1" class="java.lang.String"/>
+	<parameter name="fadditionalInstructions" class="java.lang.String"/>
+	<parameter name="prep_confined_space" class="java.lang.String"/>
+	<parameter name="prep_light_hot_work" class="java.lang.String"/>
+	<parameter name="prep_line_break" class="java.lang.String"/>
+	<parameter name="prep_heavy_hot_work" class="java.lang.String"/>
+	<parameter name="prep_cold_work" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="822" splitType="Stretch">
+		<element kind="line" uuid="fa192c6d-3d89-400a-9920-6a1ecc927988" x="4" y="38" width="1" height="747">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="da752fbe-45ce-4ffa-805f-af129cab3266" x="-15" y="37" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="fca85e6c-6b88-48b7-a2f5-65c4713c2963" x="-14" y="-5" width="584" height="19" fontName="Times New Roman" fontSize="16.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[Thyssenkrupp Industries India Ltd.]]></text>
+		</element>
+		<element kind="staticText" uuid="de099769-ab00-4ac0-8643-b19f69d1c934" x="166" y="11" width="224" height="14" fontName="Times New Roman" bold="true" hTextAlign="Center">
+			<text><![CDATA[Work Permit]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b1ecda0b-01cf-46d9-937c-a1d228df15ba" x="390" y="23" width="90" height="14" fontName="Times New Roman" bold="true">
+			<text><![CDATA[WP No.]]></text>
+		</element>
+		<element kind="staticText" uuid="ff0e859a-0394-43b6-bb66-00d91c36f1f7" mode="Opaque" x="6" y="39" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION A]]></text>
+		</element>
+		<element kind="line" uuid="18aa87b7-362f-4589-ac59-a34a30e763b5" x="570" y="-8" width="1" height="807">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="a8093ce3-2e20-46ab-b6fe-d5a651cf3160" x="5" y="69" width="566" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="aef3256f-80a2-4552-9080-79d357a502e6" x="4" y="137" width="567" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="line" uuid="f7066943-62ed-4a2f-9b92-9fe98de2b99e" x="5" y="195" width="566" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="78a05b6c-92e7-44be-9248-58ebfca57931" x="-15" y="308" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="1de2a1eb-11ee-458d-9f25-0c7c5b892db0" x="4" y="515" width="567" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="cc2118b1-b732-49b6-8865-8439bc38ff29" x="-15" y="579" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="2ab9457a-051d-4547-a979-b41483265a04" x="4" y="622" width="567" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="01e2e128-9c79-42b7-ab92-42f01c15b7f0" x="30" y="710" width="253" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="0cdd034e-a7ca-4666-a59e-8ccfbd8c21e7" x="-15" y="729" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="4913e086-2377-4754-a88a-b5109213af47" x="-15" y="784" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="f88884c6-36c9-49aa-a129-f62d619fe01d" x="-15" y="798" width="585" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="824b86a5-fbc0-47ac-b50b-6fea508e431f" mode="Opaque" x="6" y="71" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION B]]></text>
+		</element>
+		<element kind="staticText" uuid="14f19ab6-9911-4b42-be25-17fdb8e4f0e0" mode="Opaque" x="6" y="139" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION C]]></text>
+		</element>
+		<element kind="staticText" uuid="40affb25-2430-4c1e-9f39-ce430fe06eb1" mode="Opaque" x="6" y="197" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION D]]></text>
+		</element>
+		<element kind="staticText" uuid="f4d5d3c3-c495-443e-8721-7759153e7f24" mode="Opaque" x="6" y="244" width="62" height="13" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION E]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="f6e6403c-7f80-4c6b-ad88-8e1970b49154" mode="Opaque" x="6" y="310" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION F]]></text>
+		</element>
+		<element kind="staticText" uuid="d391f37e-3055-42e0-ac87-5b78abfabeb7" mode="Opaque" x="6" y="517" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION G]]></text>
+		</element>
+		<element kind="staticText" uuid="fb9844b6-19c2-4492-9ec2-9ad621cdf76d" mode="Opaque" x="6" y="624" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION H]]></text>
+		</element>
+		<element kind="staticText" uuid="f0abe2ea-dfac-41d4-9881-c4c410c58dce" mode="Opaque" x="6" y="712" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION J]]></text>
+		</element>
+		<element kind="staticText" uuid="2a4c096c-9186-4bad-ade6-6b041d2d37e9" mode="Opaque" x="6" y="732" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION K]]></text>
+		</element>
+		<element kind="staticText" uuid="fcb0ee80-698b-46f3-a2c2-cd65fb64de1c" x="-15" y="51" width="20" height="239" rotation="Left" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[JOB DETAILS]]></text>
+		</element>
+		<element kind="staticText" uuid="58b35591-011c-44e2-9356-c64c5071ad4a" x="-15" y="290" width="20" height="280" rotation="Left" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[JOB PREPARATION AND PPE REQUIREMENT]]></text>
+		</element>
+		<element kind="staticText" uuid="fadbf100-e6db-4853-9b51-c0701df95e8a" x="-15" y="579" width="20" height="145" rotation="Left" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[APPROVALS]]></text>
+		</element>
+		<element kind="staticText" uuid="f8390748-0001-4fae-ac45-f2349ecb399d" x="-15" y="730" width="12" height="53" rotation="Left" fontName="Times New Roman" hTextAlign="Center">
+			<text><![CDATA[CLOSURE/]]></text>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0453eed7-cf94-4699-bbb7-0b46fd4551bb" x="80" y="39" width="108" height="15" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[PERMIT REQUIRED FOR]]></text>
+		</element>
+		<element kind="staticText" uuid="f1804115-4fc1-43ee-8b56-526dca8d9bba" x="260" y="41" width="51" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[COLD WORK]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="45a82e9a-faa7-4d55-995c-9b6f09048695" x="260" y="56" width="130" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[CONFINED SPACE/VESSEL ENTRY]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d711021c-762b-4b1c-bc7e-82e00e9b2502" x="370" y="41" width="70" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[LIGHT HOT WORK]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="1c223164-fb86-44c8-ba23-8f4e6d128e67" x="471" y="41" width="82" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[HEAVY HOT WORK]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c3a26668-519e-4332-8777-2b8447f0f197" x="472" y="56" width="82" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[LINE BREAK]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4d49575e-487f-4da7-a709-5dda17fc6863" x="80" y="71" width="108" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[JOB PARTICULAR]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="06716b24-446b-4d9a-8996-228d314c6510" x="6" y="89" width="51" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[Plant / Unit:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0029c503-ac3f-47ac-baf0-b2898741ba2f" x="6" y="103" width="75" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[Equipment Name:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="164c4a90-d776-4401-9980-a650351ea1c4" x="6" y="124" width="103" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[Name of Contractor: M/s.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d629d825-f854-48b2-9805-bb8e180afa52" x="200" y="89" width="56" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[Area/Section:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4dad95eb-f1f1-42d2-9625-e69178258cf8" x="374" y="89" width="82" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[Equipment Tag No:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8fa73e91-727a-4057-9734-b1e25b134835" x="218" y="103" width="70" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[Job Description:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="944e6436-8bf0-4950-803e-1afbb093754d" x="299" y="124" width="108" height="11" fontName="Times New Roman" fontSize="9.0">
+			<text><![CDATA[No. of persons involved:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="c64f3dc9-ff5a-4690-ac71-273cdcf640f7" x="52" y="98" width="139" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="b3abd31d-0c32-46f3-912b-cb890109c191" x="252" y="97" width="116" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="a21ac19f-b5f8-41fa-82ae-82ca546e4086" x="448" y="97" width="105" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="83d8b684-e41b-44f7-8b5e-cd20f93705f2" x="73" y="112" width="135" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="bbf291fb-71f5-4242-a72f-e6526aa1965e" x="279" y="112" width="282" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="856c9d58-55b8-4d9b-b792-c7ea9c97917e" x="5" y="122" width="557" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="605e3c6d-7e30-4101-9c2a-3afe8d428628" x="102" y="134" width="189" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="b9d7ce11-a9f1-4a13-abfc-5a1d707968a7" x="391" y="134" width="165" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="e93f691b-e1eb-4de7-9567-2318b61edf22" x="80" y="139" width="92" height="15" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[NATURE OF WORK]]></text>
+		</element>
+		<element kind="staticText" uuid="6727d178-5ab9-4160-8b64-52f6048ccf91" x="22" y="154" width="69" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Welding/Gas Cutting]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="13860cd7-6fd1-4ee0-96f9-f76077c3bf99" x="22" y="166" width="69" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Radiation Sources]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="eef7bf7f-e887-4011-970b-8692e63c6861" x="22" y="177" width="69" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Opening of lines/ ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="bf580582-c381-4f8f-8056-291d139179e5" x="119" y="154" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacingSize="0.0"/>
+			<text><![CDATA[Work on ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e068f901-c455-4db0-a1df-a608898604ce" x="119" y="171" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Hydrojetting]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="57deed86-cbd2-4aba-9e60-fb9e1518cea4" x="119" y="182" width="60" height="12" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Grinding]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9b231118-9e8b-44cb-a70a-3dfe89f0a388" x="211" y="148" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacing="AtLeast"/>
+			<text><![CDATA[Working on]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b68ddbf6-31b6-4003-90de-9cafc240d8ca" x="211" y="166" width="68" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Photography]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e3aac1b4-bf2f-4086-967f-c57db227ce7c" stretchType="NoStretch" x="211" y="177" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacing="AtLeast"/>
+			<text><![CDATA[Work on Fragile]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b8a1078c-3299-44e8-995d-dc56b914cdae" x="301" y="150" width="72" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Work at Height]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ba7e7b7d-ead5-435a-ae00-8157808f7cd6" x="301" y="163" width="72" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Isolation of fire Water ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="f37d41ef-0452-4d23-90a4-73048a11e85e" x="301" y="182" width="72" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Online leak sealing]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4c1e80cb-3868-4a1d-9153-e46209b11290" x="396" y="151" width="64" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Excavation]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="faa86af9-97e8-4b0f-b1ac-d93bbe43fcdb" x="396" y="166" width="64" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Hot Tapping]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="3305b94f-a25d-4a68-bb7f-4e5e976dbc84" x="396" y="181" width="74" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Closure of Roades]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="da4ccb51-7c0a-4798-9d1c-a3ca92eed1dd" x="487" y="141" width="52" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Others Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="42ddba7b-c78f-46c6-94f9-f965c5b63252" x="488" y="163" width="48" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Preventive]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="7aacf570-42db-475f-90de-dc92895ecbdc" x="488" y="181" width="68" height="13" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Insulation/Painting]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="14b987e5-9515-4db3-aa44-9f00ed0caa5e" x="485" y="161" width="86" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="78a5bca0-8782-4fcd-8c25-49598d88d21a" x="80" y="197" width="182" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[TOOLS & EQUIPMENTS TO BE USED]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e8362318-cec0-4618-b86f-00a22415777e" x="22" y="212" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Welding Machine]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="141a23b3-3eb5-41a9-892f-dc64ff9a674a" x="119" y="213" width="70" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Gas Cylinder]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="99f6fad3-2d27-448c-a31e-b54b4d5ccb4f" x="119" y="224" width="70" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacingSize="0.0"/>
+			<text><![CDATA[Air/Hydralic]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="25c7ae1f-6175-4a27-ace1-25e0680ce3db" x="216" y="211" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Non-flameproof ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="04addb08-7482-4270-b900-664303e320f0" x="216" y="231" width="50" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacingSize="0.0"/>
+			<text><![CDATA[Others Specify:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="43f29ae9-bc55-4a6d-a48a-78271148721f" x="265" y="241" width="109" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="37f293c9-2ea6-41bc-90af-b9a14214f805" x="301" y="210" width="78" height="12" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Vehicle No/Crane No.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="3d5adc0f-e26e-467b-a4d2-677e606ceefd" x="301" y="229" width="79" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="5473cf89-e65d-470f-9600-6c03091a6290" x="400" y="209" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Portable Electrical ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e96bfa1b-dbb2-4b7b-a636-0220da57b214" x="400" y="231" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacingSize="0.0"/>
+			<text><![CDATA[Grinding Machine]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e78bf8ea-da4b-4886-8652-ad65941f16e4" x="492" y="210" width="59" height="20" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Stress Releiving Machine]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="fe0b33c0-a818-4206-8b2d-3cddf0798f67" x="4" y="242" width="567" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="1b1c3088-c3b9-45a9-8329-4b6f27eb4b42" x="23" y="260" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Fire Hazard]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="81211ea1-b72c-4313-850d-211f615e7d04" x="23" y="273" width="60" height="13" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Electrical]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="bd8e089b-c90c-4dc0-9ce6-76594a80b206" x="23" y="289" width="60" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Pyrophric]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="58825203-3e06-4428-b893-89b085b5493f" x="118" y="263" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Presurized]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="1c3f9c42-1a5c-4063-bd3d-231c1d78a719" x="118" y="280" width="60" height="26" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Toxic Material Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="91c6db1d-0e88-4776-b0d7-3f9cbe9222ab" x="149" y="296" width="40" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="2c0c8cc1-0850-4bb2-b3d2-6b1b1013c083" x="124" y="304" width="65" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="a93bf789-3e3d-4dd5-8af3-54a8fc9063a1" x="217" y="260" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Oxygen Deficient]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="a74755c0-5354-441a-934b-bde6c2bbca8e" x="217" y="274" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Radiation hazards]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b36f24e7-caf0-4ea3-8177-f139a1e5ed69" x="217" y="287" width="60" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Conficting]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c8e2ce7b-8375-4bf6-a738-0f77d79b07aa" x="304" y="260" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Fall from Height]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="deb80049-ab83-479c-b527-002d2b03ac65" x="304" y="274" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Dust/Fibres]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d493825d-e712-4d83-9c52-fe449131d1a2" x="304" y="287" width="60" height="21" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[No of Persons in Confined Space]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="c5cd9172-b8a7-487e-b786-75b2594fdd15" x="364" y="305" width="82" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="623e4deb-d95d-4663-ae6e-dacf259605b6" x="394" y="260" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Hot Surface]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8f51da1c-4486-4d85-bf4e-bf6bc408a33e" x="394" y="274" width="60" height="21" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Underground Hazards]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="bf82a785-88e0-4e2e-abd4-369d21046a4a" x="482" y="261" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Cave in hazards]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="417a9cef-7123-4155-8cf1-2006dcfc59e0" x="481" y="281" width="54" height="12" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Others Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="f95696f5-70d2-4920-9620-0c9387a8690f" x="481" y="304" width="85" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="312502a4-1beb-4e94-b161-c5b24e2e625a" x="535" y="290" width="35" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="0c328d46-e81c-4dff-bbed-95abd8ceabf0" x="-20" y="798" width="590" height="14" fontName="Times New Roman" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Refer to the work permit procedure for filling in the details &carrying out the job]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e09e9e4e-40ec-4be7-9bec-88fa9f08e7f0" x="86" y="784" width="120" height="15" fontName="Times New Roman">
+			<text><![CDATA[Where applicable]]></text>
+		</element>
+		<element kind="staticText" uuid="b2a99c06-e24b-4b2a-969b-cdb292fa03fc" x="409" y="784" width="120" height="15" fontName="Times New Roman" vTextAlign="Middle">
+			<text><![CDATA[Where not applicable]]></text>
+		</element>
+		<element kind="staticText" uuid="ed2009d8-b812-4fc7-97ab-6a9d5bbaf365" x="80" y="245" width="182" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[HAZARD CONSIDERATIONS]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b9272d31-886a-4c55-a266-c6292d074973" x="26" y="747" width="246" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Permit is closed-Job to be continued then issue new permit]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="1d7fdc4b-c13a-4142-b1c7-215b5bac25d0" x="26" y="759" width="246" height="13" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Permit is closed-Job is completed, houskeeping is restored to normal]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9037cc33-1812-411c-ad34-b93981df7ac6" x="26" y="772" width="319" height="14" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Permit is closed-Permit is cancelled as present consitions are not conclusive to carrying the work]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+		</element>
+		<element kind="rectangle" uuid="c13f1090-cde4-4d77-819b-b18b4da3afb8" mode="Transparent" x="300" y="730" width="246" height="41"/>
+		<element kind="line" uuid="52f6a7ba-bcdf-46eb-8993-57e6707eb87d" x="300" y="740" width="246" height="1"/>
+		<element kind="line" uuid="20c57780-a062-4a90-8d01-18aa254a06b6" x="300" y="751" width="246" height="1"/>
+		<element kind="line" uuid="5376bd9e-5ff0-47c7-b9fb-c726e877b057" x="300" y="760" width="246" height="1"/>
+		<element kind="staticText" uuid="85766e97-fb2c-466d-aef0-2236d067a299" x="300" y="741" width="54" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ Issuer]]></text>
+		</element>
+		<element kind="staticText" uuid="ca0fbbd3-1bea-4410-a083-ac14d37c3221" x="300" y="751" width="54" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ Executive]]></text>
+		</element>
+		<element kind="staticText" uuid="a8db9236-3d82-4244-8645-697afb2657d5" x="300" y="761" width="53" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ Acceptor]]></text>
+		</element>
+		<element kind="line" uuid="b1b715a5-14dd-45fd-9bcc-df9ff7b34aaf" x="353" y="730" width="1" height="41"/>
+		<element kind="line" uuid="3aed37c1-4de5-4d42-a827-7fab98b5b34a" x="414" y="730" width="1" height="41"/>
+		<element kind="line" uuid="32804194-e11b-4e2c-8bad-080590420eae" x="460" y="730" width="1" height="41"/>
+		<element kind="line" uuid="e02c55e5-3ccc-44b5-b1fb-efe1759396d4" x="505" y="730" width="1" height="41"/>
+		<element kind="staticText" uuid="a366eae4-849b-461d-b4ef-da41ed8c4036" x="353" y="730" width="60" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NAME]]></text>
+		</element>
+		<element kind="staticText" uuid="1c031760-314f-480d-a531-9b0ab249b139" x="413" y="730" width="47" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[ SIGN]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="3bc0b5b7-9101-4d91-8cec-99aeeeb9afc0" x="460" y="730" width="45" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[DATE]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="77a931b3-9ab9-46a4-948d-28a2b1508bcd" x="506" y="730" width="40" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[TIME]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8337a050-28a0-4fd3-b874-638fb73fc39a" x="80" y="717" width="194" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[REVALIDATION & RENEWALS                               ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8525e16a-978b-4fe7-b2d1-0a2237e1f970" x="294" y="718" width="178" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[See Overleaf]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="35d46c67-1bc0-491a-bf99-4b3b3fbd99d5" x="31" y="650" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ O2%]]></text>
+		</element>
+		<element kind="staticText" uuid="13ec70f5-3e57-4c6d-a5c4-5c9910ec7987" x="31" y="660" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ LEL]]></text>
+		</element>
+		<element kind="staticText" uuid="aa032c04-7073-4fac-a5ef-8834310c402a" x="31" y="670" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ H.S.PPM]]></text>
+		</element>
+		<element kind="line" uuid="436b86a9-ac7a-4de6-8531-0f77acc72e8d" x="83" y="640" width="1" height="70"/>
+		<element kind="line" uuid="42584ad2-c269-4ce6-b6ee-3b3b59a3c942" x="131" y="640" width="1" height="70"/>
+		<element kind="line" uuid="a800fa88-bf36-4025-863f-4b3adfc6fd53" x="197" y="640" width="1" height="70"/>
+		<element kind="line" uuid="26ca4261-6d06-44f8-8f65-3283a39c4719" x="239" y="640" width="1" height="71"/>
+		<element kind="staticText" uuid="3a852eb1-b07b-49ed-8a85-8d7ea4f8f6e1" x="83" y="640" width="48" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center">
+			<text><![CDATA[RESULT]]></text>
+		</element>
+		<element kind="staticText" uuid="fb5f8a55-c47f-46f9-8ced-0ff148f6a1e7" x="132" y="640" width="47" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center">
+			<text><![CDATA[DATE/TIME]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9160c9d8-4847-4e86-8550-af1004a527c5" x="198" y="640" width="42" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center">
+			<text><![CDATA[INITIAL]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0cf7fd8b-184c-4096-a686-0043f70e1f0f" x="242" y="640" width="40" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center">
+			<text><![CDATA[SIGN]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="65b34f3f-27ef-42a6-a19a-fcbb9f3babcd" x="31" y="640" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ GAS TESTS]]></text>
+		</element>
+		<element kind="staticText" uuid="74a154b9-82af-4cdb-8510-ddafd99e3ba3" x="31" y="680" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ CO PPM]]></text>
+		</element>
+		<element kind="staticText" uuid="81827d1b-7395-4c6a-8996-c9f8fbd940b6" x="31" y="690" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ Other Gas]]></text>
+		</element>
+		<element kind="staticText" uuid="5e24b356-709e-4bf3-bd0d-1facaad4dabb" x="31" y="700" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ Test Specify]]></text>
+		</element>
+		<element kind="line" uuid="04509eb9-44a1-46dd-900d-c5ee4f692d88" x="283" y="640" width="1" height="71"/>
+		<element kind="line" uuid="292674a5-ed08-458b-a33f-6808144d11b2" x="30" y="639" width="254" height="1">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="e09e38cf-5181-4556-ac36-677342a89504" x="30" y="640" width="1" height="70"/>
+		<element kind="line" uuid="b6d97867-99b3-4559-bad6-ec1e749bf35b" x="30" y="649" width="253" height="1"/>
+		<element kind="line" uuid="af0ce85d-6c4c-42bc-8953-bffe37af81bd" x="30" y="659" width="253" height="1"/>
+		<element kind="line" uuid="efc4132c-c114-441f-9fcc-6f3cfe2179c6" x="30" y="669" width="253" height="1"/>
+		<element kind="line" uuid="65ee6dda-76e7-4a37-beec-cd8b24ab63e6" x="30" y="679" width="253" height="1"/>
+		<element kind="line" uuid="89ff2c2d-036c-4975-b9f7-9def4c3a5457" x="30" y="689" width="253" height="1"/>
+		<element kind="line" uuid="3f185cb3-73f8-458a-9fc9-d4012ab0e57f" x="30" y="700" width="253" height="1"/>
+		<element kind="staticText" uuid="44bb2211-2b60-47fa-9efc-0876d2d4c242" x="34" y="600" width="520" height="20" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[We certify that work area is has been inspected, job preparation, job precaution & conditions are satisfactory and safe for job to proceed and the people who are going to carry out the job have been explained the hazards involved & precautions to be taken]]></text>
+		</element>
+		<element kind="staticText" uuid="445193d0-d899-4769-9609-31c2fb7bb957" x="36" y="569" width="518" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Note: Safety Shoes, Safety Helmet, Safety Goggles and usage of Regular/general PPE is mandatory in addition to the above specific PPE]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ff4b624a-c013-4579-875b-4d000d6ab839" x="80" y="515" width="216" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[HAZARD CONSIDERATIONS]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4e162d0a-d9d2-49b1-b8db-892af6dc3f45" x="30" y="532" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Fire Extingusher]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c8494f12-fdd0-4fa9-b241-d266753ab63c" x="30" y="543" width="60" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Fire Blanket]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="7b14124c-230c-48d2-b415-bd14b2c80b38" x="30" y="554" width="120" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Fire Water Hose Ready/ Fire Water ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4bebe99f-07a9-4f13-9f56-a41c6685ce5a" x="182" y="527" width="74" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Aireline Mask]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="45847b77-297c-4f29-aa73-eec577936249" x="182" y="538" width="74" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[SCBA
+]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="cf5e45ca-d4e6-43d4-ad4c-85d26699c218" x="182" y="549" width="74" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Cartridge Gas Mask]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b5d36f21-bd88-40d0-99f7-5cb36e4de669" x="302" y="538" width="110" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Chemical Splash Proof Goggles]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c4c19572-952f-43c8-9fe6-6ee0fd1f2514" x="302" y="549" width="116" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Full Body Harness with Life Line]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6614c06c-6f9a-41ee-9192-fdec5cda5de7" x="302" y="560" width="54" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Others Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d65107d0-3321-437f-9b14-2da1f7fb002a" x="302" y="528" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Face Sheild]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8e204ea1-988b-415f-ac9a-4a6fcad46723" x="182" y="560" width="74" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Dust Mask]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="600e1364-0150-4dd9-a745-4ad5c9738785" x="448" y="529" width="82" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Protective suit Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ba39c78b-d454-47fd-b704-7f742cb5e302" x="449" y="549" width="94" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Special Gloves Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="6eeb74fd-1ec7-4756-8712-f8a326658679" x="352" y="569" width="67" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="f1423d97-0dd8-4257-b750-1e996ff57ef2" x="449" y="547" width="115" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="8eaf5a99-0862-4fb2-b5dc-5bd65a6425bf" x="450" y="567" width="115" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="49aefefb-79c6-431b-8613-98f893c075b7" x="80" y="311" width="182" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[JOB/EQUIPMENT PREPARATION]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="334dce50-de31-4fda-b796-cbdceed3448c" x="36" y="328" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Isolated/Blinded]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="3cc567ae-383b-4178-9688-be916ea7e623" x="226" y="329" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Full Body Harness with Life Line]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="86db452b-2bf5-47a3-818c-112cda14e6ad" x="406" y="328" width="163" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[8 Mts area checked for combustible material]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="897c1bc6-c35f-494e-93a1-c4b047f3cd2a" x="36" y="340" width="114" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Isolated/Blinded Check Sheet No.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="f0f969cb-c650-4a9b-863b-b36168fefd5e" x="149" y="349" width="37" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="1b3ff563-46bf-4396-999c-6a6e65b0c808" x="36" y="352" width="94" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Isolated/Blinded Tag Nos]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="469fce01-055b-41df-9fb3-22c0d621772a" x="130" y="360" width="57" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="6f498e45-9664-4386-b22b-b5a7c6f4ebff" x="36" y="371" width="151" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="5912a3bf-f24c-4643-90c5-85396fc19414" x="36" y="373" width="114" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Depressurized/Drained]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="8f29dbf1-2d4a-40e8-bd77-d892857de974" x="36" y="383" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Washed/Steamed/Purged Completely]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="a7c5ee91-e96b-4d34-bac2-025a9d16a39a" x="36" y="396" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Escape Route Checked & Clear]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="5e6e4dd4-eb6c-4e72-b603-495e184d97ee" x="36" y="411" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Electrical Isolation & Restoration Tag Nos]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="b7b8a91d-ca3e-468a-85f7-c3a934dbfbc1" x="36" y="428" width="151" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="00e81f5a-e4c8-47f4-9bdc-4c8a03d330c6" x="36" y="432" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Radioactive Source Isolated Tag Nos.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="22483ac6-dded-4f33-bbd1-9350ad474bbb" x="36" y="449" width="151" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="4f541dc2-7836-4879-91e8-a335995173e9" x="37" y="454" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Filter Water Network Isolation Procedure]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="cd4a37b9-4bde-4bcb-9156-0eccb9b28004" x="37" y="466" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Compliance and Check Sheet No]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="7f673231-f5f3-41f5-bd33-75827cecb7ad" x="146" y="475" width="47" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="53ce78c3-4107-4975-8871-046fb8a9cbf7" x="37" y="480" width="148" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Online Leak Sealing Procedure Compliance]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="33e22f38-ddcf-42fb-badb-d1fc3bfae8e8" x="226" y="343" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Ventilation Ensured -blower/air Mover ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c7d1ec98-31fc-4b14-88ea-2a4010e5ec34" x="226" y="351" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Provided]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="2b5175f6-48eb-4b41-9598-104e9751d209" x="226" y="364" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Area Barricaded]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d8f372b2-0455-4b06-97fd-7849d6f613e5" x="226" y="377" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Hot Tapping Procedure Compliance]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="be742825-9e01-4132-bb92-5d34dd3a42e3" x="226" y="390" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Excavation Clearance obtained]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9ab49699-efa5-443b-8f5e-1e6584ae0a3e" x="227" y="400" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Clearance No.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="32b43f82-64cd-4c6a-beb3-3d0cc2dc6f60" x="279" y="409" width="93" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="e5964b40-88dd-413e-a8aa-d8de3833d721" x="226" y="412" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Ladders]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="45a1bc0e-cfde-414e-a1b0-c841b941cb5a" x="226" y="422" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Specify type]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="13677a11-52ec-468a-86d5-cb21631c10bf" x="272" y="431" width="100" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="bb04000d-8481-43dd-8b18-634611cdea4f" x="226" y="435" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Scaffolding ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9d3ac202-7301-48e9-8768-f7eb605684f7" x="226" y="445" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Specify type]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="43cbeff1-8788-41c3-9b6b-bfb2a5b0b3ec" x="272" y="454" width="100" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="2a0a7667-4f54-405e-860e-f3bcbff28fb5" x="226" y="457" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Pyrophoric Material Removed/Kept wet]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c79bc262-37f9-41f1-89a9-5a4cb992903b" x="226" y="468" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Risk Assessment Sheet No]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="985fb720-1493-4eab-bcb4-746c2f8fc83b" x="314" y="478" width="58" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="fb992016-e3cf-4634-b893-6eb9f202d209" x="226" y="480" width="146" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Tool Box Talk Delivered]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="3448927c-bdc1-4dcf-8995-cf07bff4d5c6" x="406" y="341" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Hydro jetting Procedure Compliance]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="98f3cf9c-974c-4b43-afe0-afb6397976f4" x="406" y="352" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Cover/Protect-sewar/Drain Channel]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c663a6b5-f650-46bf-9cfa-8b8548cac1f3" x="406" y="363" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Protect Surrounding area from Sparks & Fire]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="43ceb982-f1ac-43a2-8f68-e145991ef745" x="406" y="374" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Ground the welding machine and Electrical]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="5e15abc6-ade8-4550-a625-8a683116757a" x="406" y="381" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Equipment]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="5d3c90d1-9ce7-4fe2-b8b0-b04fd8e51129" x="406" y="394" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Use 24 Volt Hand Lamp (Flameproof)]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6b2d4131-9b2f-4c02-9065-44a609a48fa7" x="406" y="405" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Attendant/Firewatch Permit Holder required]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="486b2927-5543-4960-8c99-91eec025b69e" x="406" y="416" width="49" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Specify na  A:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="79ff3b69-54dc-40ff-ad00-ece9db5761d0" x="457" y="424" width="106" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="a0a792ed-ff40-4a06-a9c5-30e0cf5f36b8" x="406" y="426" width="21" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ B:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9885cbe7-0dcd-4a9e-99d4-e7c45dca2219" x="406" y="436" width="21" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[ C:]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="26b10e37-222c-4202-a31d-1ae622a8af0b" x="418" y="435" width="134" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="9a7ef6ac-a5fd-44fc-80e6-7dce8799b332" x="418" y="445" width="134" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="43db5f6c-34ee-4daf-9480-e9e84c4a33d7" x="407" y="448" width="163" height="11" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Adequate Lighting]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="167ada8e-f733-41c3-acbe-a7afb22ea76a" x="407" y="460" width="162" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Procedure Followed for Handrail/Grating Removal]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="379098ea-c27a-4e0a-ab3a-840f22513f01" x="407" y="472" width="32" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Others]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="7fe22e23-3c68-4084-a6a8-cf70580104a7" x="407" y="479" width="32" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Specify]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="46a0213e-a234-4d0c-8dcc-b5adf5724607" x="440" y="486" width="128" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="6364b8c2-98dd-4e93-bf4f-e19609ad71d3" x="6" y="500" width="94" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[INSTRUCTIONS IF ANY: ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="line" uuid="7d807231-7e11-4a26-b910-fcabf7a7568f" x="97" y="509" width="463" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="staticText" uuid="ee6e5f3d-4915-4449-b1a2-ff08281048bb" x="301" y="170" width="72" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[network]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="bc8abc59-7166-4f6f-bddc-ed2f5ecd5e83" x="488" y="170" width="48" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Maintainance]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="11cd2d41-9692-4809-a97d-05f4dd079b18" x="22" y="185" width="69" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Equipment]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="c6c7bab8-6624-450e-a3d5-c50721885dac" x="119" y="161" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacingSize="0.0"/>
+			<text><![CDATA[Electrical System]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="bc629e2e-ba68-4483-92aa-2ebc2c9f201c" x="211" y="155" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacing="AtLeast"/>
+			<text><![CDATA[‌Instrument System]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0880ab02-d100-4677-af1d-59280b4e360e" stretchType="NoStretch" x="211" y="185" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacing="AtLeast"/>
+			<text><![CDATA[Roof]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="059faecb-2238-4891-ab7b-1b6f85be187e" x="119" y="232" width="70" height="10" fontName="Times New Roman" fontSize="8.0">
+			<paragraph lineSpacingSize="0.0"/>
+			<text><![CDATA[Operated Equipment]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="4c72ec36-87e1-40a4-9c4f-24844983c6fe" x="216" y="218" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Equipment]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="674cea13-9cb6-4a95-8a95-c153e310e9b6" x="30" y="561" width="120" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Available]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="f08fcae4-acb6-4194-b8a1-784fa681bb4b" x="23" y="297" width="60" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Material]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="cb72e6d7-4c36-4cc7-930e-f9b9f525d399" x="217" y="295" width="60" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Left" vTextAlign="Top">
+			<paragraph lineSpacing="Single"/>
+			<text><![CDATA[Activity]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="59046b94-42d3-4f84-90d2-8dec7c47d37b" x="22" y="224" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[HydroJetting]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6fdad069-dbf4-4934-9629-9d8a53faf4b1" x="22" y="232" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Machine]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="60701cfd-6689-4700-83a8-9c23d1f65dd7" x="400" y="217" width="68" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Tool]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b4942a03-e523-4d51-b434-72dcb8a991a7" x="296" y="650" width="60" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Issuer]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="6e3086d6-9d13-4056-a86b-edd725dab92e" x="296" y="660" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Acceptor]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="20e915ac-fa84-42a4-90ef-44f850da3960" x="296" y="670" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Approver-I]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="119cd0c9-6649-4996-9a3b-ab7cac85d441" x="294" y="640" width="1" height="70">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="100f1fea-012b-4f4e-a2c4-8d554e1ae765" x="294" y="640" width="1" height="70">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="e5efb5a4-6b76-469d-bb26-6de914f1f700" x="294" y="640" width="1" height="70">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="40cc4e0d-a1c3-41f8-94c6-260f4702f629" x="294" y="640" width="1" height="71">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="aeba894d-1602-4124-b00d-4d4006030a73" x="296" y="680" width="52" height="10" fontName="Times New Roman" fontSize="8.0" vTextAlign="Top">
+			<text><![CDATA[Approver-II]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="b1d42867-197a-4729-a2db-7d4844d88557" x="296" y="690" width="52" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Approver-III]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="staticText" uuid="fa1b91e7-b5f2-4e5f-b908-3302d8ca1a5a" x="296" y="700" width="74" height="10" fontName="Times New Roman" fontSize="8.0">
+			<text><![CDATA[Executive Field OPM]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="0c55284e-2d8e-4a9b-a562-5ab959840c23" x="294" y="640" width="1" height="71">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="9c1a6aa5-e752-4a4b-b76d-d4acdb8c5d9f" x="294" y="640" width="1" height="70">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="f6e800ce-65ed-43e4-b69e-717ff45ab359" x="295" y="649" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="14fa629b-0353-4b12-95f0-a84976a70b13" x="295" y="659" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="a1abccf7-42c9-427f-87ba-efc2fd3806d4" x="295" y="669" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="a9e124d8-c350-4e98-87b7-c9e6eba06d31" x="295" y="679" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="b2b99f23-290c-46e0-a371-455e74cf9eda" x="295" y="689" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="6b67e5d5-1b31-4a31-8a15-02ed27f003e5" x="295" y="700" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="778511c1-0c2c-4c93-9e84-9f37d01e84d8" x="294" y="639" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="4477cc87-c9a3-4db9-a96f-b05f5481f6c1" x="561" y="639" width="1" height="71"/>
+		<element kind="staticText" uuid="9669d224-fa59-43b2-a5d9-aecbacc983ee" mode="Opaque" x="294" y="624" width="62" height="15" backcolor="#F0F0F0" fontName="Times New Roman" bold="true">
+			<text><![CDATA[SECTION I]]></text>
+		</element>
+		<element kind="line" uuid="7b28f986-3234-4856-81a3-9b43e30a2742" x="368" y="640" width="1" height="70"/>
+		<element kind="line" uuid="2b5a57ce-c7c0-40e8-b2f0-9c87f986387f" x="437" y="640" width="1" height="70"/>
+		<element kind="line" uuid="bc8df39b-cb7b-4494-97e3-cef1e4137e75" x="487" y="640" width="1" height="70"/>
+		<element kind="line" uuid="4174c532-93a1-44d5-b660-87feecd05e63" x="529" y="640" width="1" height="70"/>
+		<element kind="staticText" uuid="9d32bb5c-e40a-4332-8c0f-1526053d43e2" x="369" y="640" width="66" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[NAME]]></text>
+		</element>
+		<element kind="staticText" uuid="d7a0dcb1-d326-4738-9e3c-b158314752bc" x="436" y="640" width="47" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[ SIGN]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="241496d9-01b8-4e81-9335-70cd478082bb" x="487" y="640" width="40" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[DATE]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="0d8ebf2b-27a8-4d6d-9258-c09ee18014d3" x="530" y="640" width="30" height="10" fontName="Times New Roman" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[TIME]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d405219b-c058-4a1a-844c-66ee530189a5" x="394" y="628" width="94" height="10" fontName="Times New Roman" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[APPROVALS]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="ee8d11b5-c403-4268-84ae-5edc9817914f" x="294" y="710" width="267" height="1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="line" uuid="e9d50f18-ac65-4e1c-bcc4-b58bba188208" x="-15" y="-8" width="585" height="1"/>
+		<element kind="line" uuid="58e449e5-84dd-4bca-86ea-b7174bbf5f78" x="-15" y="-8" width="1" height="807">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="50f96bf8-d2e6-49d8-a1e4-c7834c602b04" x="-6" y="731" width="12" height="53" rotation="Left" fontName="Times New Roman" hTextAlign="Center">
+			<text><![CDATA[CANCEL]]></text>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="d406a784-3b92-44df-a4df-6562fead6ad2" x="80" y="731" width="194" height="13" fontName="Times New Roman" fontSize="9.0" bold="true">
+			<text><![CDATA[CLOSURE/CANCELLATION]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2b61f296-e911-4980-9f96-e38c7e941723" x="6" y="155" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_welding_gas_cutting}]]></expression>
+		</element>
+		<element kind="textField" uuid="8d54af08-b9ca-4ee8-bbb3-13195a47d96c" x="6" y="166" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_radiation_sources}]]></expression>
+		</element>
+		<element kind="textField" uuid="815bedf1-1f08-4731-81b0-bb27b9ba1224" x="6" y="181" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_opening_lines_equipment}]]></expression>
+		</element>
+		<element kind="textField" uuid="ff7ad91b-4be4-4520-9384-3794ef4d2eb4" x="102" y="183" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_grinding}]]></expression>
+		</element>
+		<element kind="textField" uuid="a892159f-b628-45c3-94b7-3268a438b5e8" x="102" y="158" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_electrical_system}]]></expression>
+		</element>
+		<element kind="textField" uuid="92f95f58-42d5-4408-b9d9-052e41c026d2" x="102" y="172" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_hydrojetting}]]></expression>
+		</element>
+		<element kind="textField" uuid="9cfeb62c-6ec7-4ee8-ad5a-2d4eb0b69b68" x="193" y="180" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_fragile_roof}]]></expression>
+		</element>
+		<element kind="textField" uuid="796fe61e-80f2-46bc-aee1-9186d8184d4b" x="193" y="165" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_photography}]]></expression>
+		</element>
+		<element kind="textField" uuid="a96bcabe-6d14-43f2-9e31-df2d871ea365" x="193" y="151" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_instrument_system}]]></expression>
+		</element>
+		<element kind="textField" uuid="767eeb24-ef46-49f4-8ba1-da669d5677f5" x="284" y="182" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_online_leak_sealing}]]></expression>
+		</element>
+		<element kind="textField" uuid="759a2e04-5de7-4f32-9d3d-f905f0318e39" x="284" y="167" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_fire_water_isolation}]]></expression>
+		</element>
+		<element kind="textField" uuid="4409858b-b55c-413e-98f6-e62fade35df7" x="284" y="151" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_work_at_height}]]></expression>
+		</element>
+		<element kind="textField" uuid="82533fcf-decc-4ee7-b9ab-27d22b3832d5" x="379" y="181" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_closure_of_roads}]]></expression>
+		</element>
+		<element kind="textField" uuid="65bd4577-353b-4fbc-a316-39a98992ee35" x="379" y="166" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_hot_tapping}]]></expression>
+		</element>
+		<element kind="textField" uuid="67b99f82-f64f-41e1-8d82-09881ecb40cb" x="379" y="150" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_excavation}]]></expression>
+		</element>
+		<element kind="textField" uuid="7b0cc431-e1ab-499e-bb77-e3d61f257a0a" x="470" y="182" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_insulation_painting}]]></expression>
+		</element>
+		<element kind="textField" uuid="b42eab25-e96f-4bcd-8e1e-087326339fcd" x="470" y="167" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_preventive_maintenance}]]></expression>
+		</element>
+		<element kind="textField" uuid="40827536-606a-4d37-8237-29c4652dc442" x="470" y="141" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{nature_others_specify}]]></expression>
+		</element>
+		<element kind="textField" uuid="7cbcbe0c-fd71-4538-9d9e-c9e61408c55f" x="5" y="212" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_welding_machine}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="6d8a8449-98e4-43b4-96f9-d0f691096ec4" x="5" y="227" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_hydrojetting_machine}]]></expression>
+		</element>
+		<element kind="textField" uuid="fe81fba3-7213-49d3-9571-e3789a31a648" x="102" y="213" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_gas_cylinder}]]></expression>
+		</element>
+		<element kind="textField" uuid="cf796419-0aed-4763-ba21-89fe06472284" x="102" y="228" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_air_hydralic}]]></expression>
+		</element>
+		<element kind="textField" uuid="5fdf8850-be4e-4bea-85b2-95a844589a6f" x="199" y="230" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_others_specify}]]></expression>
+		</element>
+		<element kind="textField" uuid="2f2efb76-c0c5-404f-aa41-c0eaa9e23963" x="199" y="214" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_non_flameproof}]]></expression>
+		</element>
+		<element kind="textField" uuid="8bc05c9f-c95c-49dc-996b-19e8b88bfa1f" x="284" y="211" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_vehicle_crane}]]></expression>
+		</element>
+		<element kind="textField" uuid="fc69a7af-a3af-4734-ac0d-da26a5169845" x="383" y="212" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_portable_electrical}]]></expression>
+		</element>
+		<element kind="textField" uuid="70070028-13a2-4a1a-bb80-8cb5a764a317" x="383" y="231" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_grinding_machine}]]></expression>
+		</element>
+		<element kind="textField" uuid="1c752e50-0941-4e62-91c2-12364661dead" x="475" y="214" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{tools_stress_relieving}]]></expression>
+		</element>
+		<element kind="textField" uuid="4e2d7e09-e0d8-4035-9171-539dedd67eb4" x="6" y="260" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_fire}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="dbe3a3ae-8fb5-4978-a892-0744685b1031" x="6" y="274" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_electrical}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="df1db3d5-a4b7-4d11-b405-01a633a68c5a" x="5" y="293" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_pyrophoric}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="36f953ab-64e5-4dd3-b425-dcf383464469" x="100" y="263" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_pressurized}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="98b41052-31be-4760-852b-97f4b6e79857" x="100" y="287" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_toxic}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b5a1ff88-9036-4360-842b-b957d635393d" x="200" y="275" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_radiation}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="288faef2-62e8-49d8-840f-acfa3b0b5d41" x="200" y="261" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_oxygen}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c18d1cd1-320a-4bb4-9a74-3e203bc82512" x="200" y="290" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_conflict}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="97f91761-e892-417a-a39d-88f1777503b0" x="286" y="274" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_dust}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="3bda5958-22db-453d-b8a2-9118897c192f" x="286" y="261" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_fall}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d32819aa-c5db-4c9d-b60f-4879a660250a" x="286" y="291" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_confined_space}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b2d31d16-87b8-4cb9-b07d-fcbd1cc4cd05" x="376" y="278" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_underground}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d5e1976b-e100-4c02-acbb-3cf86dfd41ac" x="463" y="262" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_cavein}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="312d06f8-97b2-479b-91fb-9c97c3d8eb1b" x="463" y="282" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_others_specify}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="76ebdc17-6e10-4f92-b587-4d80962ccbac" x="376" y="261" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_hot_surface}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="bb41c6c6-1f6d-448e-b692-56cda0192254" x="11" y="532" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_fire_extinguisher}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="e7f29a96-ea25-4c21-8daa-179fdf05ae43" x="11" y="542" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_fire_blanket}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="9cfb7d33-72ed-445f-af87-4674fcb402e7" x="11" y="558" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_fire_water}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="81c7c737-cc4e-4c95-8476-833413f20e4f" x="163" y="539" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_scba}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="dc45c1d2-7f31-4793-80a7-95caf7fd69b1" x="164" y="528" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_aireline_mask}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="0a2ef624-3e07-4ff1-931c-c4fae9e31602" x="164" y="561" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_dust_mask}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="e9e0cc2d-cd39-4e1c-9bac-89821d9362cb" x="164" y="550" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_scba}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="674f5d92-b38d-4224-9d62-8c6dad2c443c" x="285" y="529" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_face_shield}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d9bb6397-de66-426e-8a80-6cb425cc86ae" x="285" y="539" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_goggles}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="4849a3a0-8b92-4bf8-9ff9-f1a0289f3567" x="285" y="549" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_body_harness}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="9d7696ee-b5b5-4518-af78-ef74fe144b1e" x="285" y="559" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_others_specify1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="3ae64f71-731c-4b78-aa79-3a50d15f6f68" x="432" y="549" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_special_gloves}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="cf216248-b031-48ed-86fb-582bbba4be69" x="431" y="529" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{hazard_protective_suit}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="e3a3ab39-0d8e-4359-bac4-68b8c63130b7" x="17" y="328" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_isolated_blinded}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2f9704cf-3a7b-4405-ba90-dd40b072397e" x="17" y="340" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_isolated_blinded_check_sheet_no}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b5140b19-1c06-46e8-9be0-09580da4cb7f" x="17" y="352" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_isolated_blinded_tag_nos}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="aa82e3ac-fbcf-465e-91ee-f25741919c7d" x="17" y="377" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_depressurized_drained_washed_steamed_purged_completely}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="bec7ffca-8141-4adc-be73-d3cf7a2264e4" x="74" y="102" width="131" height="11" fontName="Times New Roman" fontSize="9.0" blankWhenNull="true">
+			<expression><![CDATA[$P{equipmentName}]]></expression>
+		</element>
+		<element kind="textField" uuid="323aaf3c-36ed-4a7b-b974-16c6831a92b9" x="280" y="102" width="280" height="20" fontName="Times New Roman" fontSize="9.0" blankWhenNull="true">
+			<expression><![CDATA[$P{jobDescription}]]></expression>
+		</element>
+		<element kind="textField" uuid="9113551d-60ea-4ad1-89f3-1fa4e795cf1a" x="101" y="124" width="180" height="11" fontName="Times New Roman" fontSize="9.0" blankWhenNull="true">
+			<expression><![CDATA[$P{contractorName}]]></expression>
+		</element>
+		<element kind="textField" uuid="572816ee-dba0-46fd-9ad7-8a7c9cd96cab" x="448" y="88" width="108" height="11" fontName="Times New Roman" fontSize="9.0" blankWhenNull="true">
+			<expression><![CDATA[$P{equipmentTagNo}]]></expression>
+		</element>
+		<element kind="staticText" uuid="07652f6e-5fa3-4158-826f-cda96e276ead" x="4" y="580" width="566" height="20" fontName="Times New Roman" bold="true" vTextAlign="Middle">
+			<text><![CDATA[ Permit is valid from                         Hrs upto                          Hrs. on Date                              	          Unless extended as per Section J]]></text>
+		</element>
+		<element kind="textField" uuid="273ab3a5-beb1-4114-a1e6-d547f4fda832" x="317" y="582" width="105" height="16" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{date}]]></expression>
+		</element>
+		<element kind="textField" uuid="18013857-6818-4fa9-84cd-bdf41d1377c0" x="196" y="582" width="61" height="16" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{toTime}]]></expression>
+		</element>
+		<element kind="textField" uuid="6f4aa0f6-be19-4528-9fe6-4e911dab2095" x="96" y="582" width="61" height="16" fontName="Times New Roman" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{fromTime}]]></expression>
+		</element>
+		<element kind="line" uuid="dfac31df-7ba3-48de-aa15-e2313f9259c7" x="193" y="596" width="63" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="6580a2d5-e78c-45c7-8d9c-6b8c88bcd37a" x="313" y="596" width="112" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="line" uuid="fa958231-eb3f-42aa-a678-5ca67f8677c2" x="92" y="596" width="63" height="1">
+			<pen lineStyle="Dotted"/>
+		</element>
+		<element kind="textField" uuid="dc4b0ccc-62c6-42fa-8ceb-69c7dbbdb25b" x="17" y="397" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_escape_route_checked_clear}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="664e7a7f-8c1b-4fa8-abd2-c11752992143" x="17" y="412" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_electrical_isolation_restoration_tag_nos}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="63676474-2b2e-4f63-a3b6-4c5530160cae" x="17" y="432" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_radioactive_source_isolated_tag_nos}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="9cafa58f-c24b-4f6b-b527-ce50ab6e6681" x="17" y="455" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_filter_water_network_isolation_procedure}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="076b1092-da3e-400e-b15f-0ab60d804976" x="17" y="466" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_compliance_check_sheet_no}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d479934e-82f9-440b-8ad8-2570c31f06da" x="17" y="480" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_online_leak_sealing_procedure_compliance}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="25004aed-d2b4-4ea8-af92-8768c5c5cb2e" x="207" y="329" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_full_body_harness_with_life_line}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="ae3a80c9-1e88-450f-b103-7523c7aa5d00" x="207" y="346" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_ventilation_ensured_blower_air_mover_provided}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="1c6f96cc-c9a0-4e09-933e-e9e7e79301d4" x="207" y="364" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_area_barricaded}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="8f52ada8-d1e8-4c52-a8f8-1b5bd66dd59c" x="207" y="377" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_hot_tapping_procedure_compliance}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="64554bad-9d1a-48b2-b6ed-fdc9b157d09f" x="207" y="391" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_excavation_clearance_obtained}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="a6442409-2f8d-42dd-808d-676880df2386" x="207" y="414" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_ladders}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="ed9b2782-513d-407d-9869-5e31e1e109a6" x="207" y="439" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_scaffolding}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2b75695e-27f3-4486-82cc-5de8ef72e6cc" x="207" y="457" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_pyrophoric_material_removed_kept_wet}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="aa380eae-57c4-46be-9501-9b827576d7c8" x="207" y="468" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_risk_assessment_sheet_no}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d82e2e7f-95d5-4fc2-b6a3-415f9d4c1f7d" x="207" y="480" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_tool_box_talk_delivered}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="62853d7a-84f1-4014-8675-f1ff19b3f3bb" x="388" y="329" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_8_mts_area_checked_for_combustible_material}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="8b1f5252-3693-4a6d-bcf8-ea6ef880c1ef" x="388" y="341" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_hydro_jetting_procedure_compliance}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="22b2afa6-37ca-4b13-8386-f66a5e3ff063" x="388" y="353" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_cover_protect_sewar_drain_channel}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="a0521a40-17a7-4e90-a12d-d800372c4adb" x="388" y="364" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_protect_surrounding_area_from_sparks_fire}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="6af3e31a-3d08-49de-b7d2-8b2afcdeec5e" x="388" y="377" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_ground_the_welding_machine_and_electrical_equipment}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="09b9e8d1-8d91-4fa6-889f-93bfe99f8d8e" x="388" y="395" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_use_24_volt_hand_lamp_flameproof}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="5f554473-aadc-4655-87e8-11d45915c269" x="388" y="405" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_attendant_firewatch_permit_holder_required}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c4e91950-c347-4ac7-8475-28943df04ea7" x="388" y="449" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_adequate_lighting}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c1598988-246d-428d-abe6-88b558e5eb3c" x="388" y="460" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_procedure_followed_for_handrail_grating_removal}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="e044b9d9-7f4b-4f08-b08d-74d7f82bbb52" x="388" y="476" width="15" height="10" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_others_specify}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="e62835e1-e719-468b-9cbf-6707f266f03f" x="85" y="650" width="47" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_result_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c6287b10-5eab-424d-a5c8-cc7a294e84f4" x="85" y="660" width="47" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_result_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="76c592c9-d9c5-4960-a549-07d3d8bfe52e" x="85" y="670" width="47" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_result_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="cec3c347-d9e0-437f-bc0a-cd0e3c644d27" x="85" y="680" width="47" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_result_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="7a653944-986b-4c62-88b2-9563707e30ab" x="85" y="690" width="47" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_result_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="102b0b9f-f950-4479-ab60-2bfc09bbf145" x="85" y="701" width="47" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_result_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="91c138f4-586c-4ce5-9263-6fd7cdbd3cb1" x="199" y="650" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_initials_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="4774326c-7d00-4a56-8d66-02d4c42514e8" x="199" y="660" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_initials_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="be58d744-8842-427d-846d-a2f5ef427931" x="199" y="670" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_initials_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d3ff23ed-c35b-4a55-ad1a-eb13249f0d81" x="199" y="680" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_initials_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="8546f36b-5c4c-420f-81b2-277aeb27842f" x="199" y="690" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_initials_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="55ddeadc-9638-4c49-817d-c063b97c8caa" x="199" y="701" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_initials_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="1231e658-0d01-45ec-b426-50ad57a201d1" x="241" y="650" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_sign_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="0773d777-1f22-4c79-b21f-ffbcf36ed94d" x="241" y="660" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_sign_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="652e0a28-6d0c-426a-bea0-b1aa79673656" x="241" y="670" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_sign_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="1a657a39-9d1c-4b46-be70-c09e86a87339" x="241" y="680" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_sign_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2414c589-ae0d-442f-8069-24ea985bb2b5" x="241" y="690" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_sign_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="cac1ed38-716f-48a3-8dfb-71bc79d8a4f0" x="241" y="701" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_sign_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d2a0fe4f-19ed-44da-b935-6cc080135220" x="133" y="650" width="65" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_time_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2d79429b-4a0f-4577-bd19-4e25b7d18704" x="133" y="660" width="65" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_time_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2283c8f6-7734-4aa0-a3a4-214ffd0e9353" x="133" y="670" width="65" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_time_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="cb6c559c-8417-4758-b776-a474e6e00a70" x="133" y="680" width="65" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_time_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="155c3963-750f-4657-9000-0d7b6de973ce" x="133" y="690" width="65" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_time_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="aa39e805-5b91-49be-9078-479577095f7c" x="133" y="701" width="65" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{gas_test_time_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c5a92037-4f6f-4498-a99a-40832a2daa33" x="370" y="650" width="67" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_name_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="fade5d10-8ace-4607-9bd8-10502444a22c" x="370" y="660" width="67" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_name_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="63d12dc9-39d7-4625-a5d1-5d826a7e5aca" x="370" y="670" width="67" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_name_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="27368620-a496-4899-b73f-19b145119014" x="370" y="690" width="67" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_name_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="53d2982c-a53a-4ad9-9dc2-5f3c26f9d166" x="370" y="680" width="67" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_name_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="38a9b494-deb0-4c52-b239-dceb81df4384" x="370" y="701" width="67" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_name_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="bb2ca511-a9cb-4945-9351-39f7849410a1" x="531" y="650" width="31" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_time_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="textField" uuid="e5aaeb9f-0fe4-420d-9097-ab0fa73f87cc" x="531" y="660" width="31" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_time_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="textField" uuid="7294be36-187c-4f60-8785-d7552d4d7c12" x="531" y="680" width="30" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_time_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="textField" uuid="2e113159-ec78-47ce-9ebc-04833458a80e" x="531" y="670" width="30" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_time_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="textField" uuid="da778dab-675e-42bd-9d06-86355197c610" x="531" y="690" width="30" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_time_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="textField" uuid="3fc62985-bb41-4a1a-8ec3-b172d70b42aa" x="531" y="701" width="30" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_time_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+		</element>
+		<element kind="textField" uuid="99e52447-7bcc-4ff9-992c-012db7a5e6ff" x="439" y="649" width="46" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_sign_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="8ea63fcd-9b2c-4043-a100-4095e4724752" x="439" y="659" width="46" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_sign_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2eb5561b-1f9b-4968-90b4-a87efaef6d95" x="439" y="679" width="46" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_sign_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b9805d88-dff1-43c0-bee1-76567499de9b" x="439" y="669" width="46" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_sign_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="ca685c65-6745-4eea-a87b-934ca13cccf9" x="439" y="689" width="46" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_sign_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="dd62844f-3bba-466d-8037-8d5a230c46c8" x="439" y="700" width="46" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_sign_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="58327d73-fd9b-460c-859f-19420bf8a2ed" x="355" y="741" width="60" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_name_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="6de72224-bb5f-4978-a673-326472b29b7b" x="355" y="751" width="60" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_name_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="491577d4-eb7f-4868-a070-c023f745ba00" x="355" y="761" width="60" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_name_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b6016670-e760-4636-9bcd-b748d31c8a16" x="417" y="761" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_sign_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c4be71f8-5d34-4a3f-afce-7fe690c1ad8c" x="417" y="751" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_sign_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="dce7ea49-9ab5-428e-9fdd-aa53404de64a" x="417" y="741" width="42" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_sign_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="ebe744b9-2567-4c8c-a3cf-a7ed718ea688" x="507" y="751" width="39" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_time_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="7e6d74a7-4c6e-4225-bf78-f9f41332b3b9" x="507" y="741" width="39" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_time_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d2694bb2-a931-4e55-8d84-87246421c0eb" x="507" y="761" width="39" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_time_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="a9afbe96-800d-4937-837b-f76cfc0670b9" x="487" y="151" width="83" height="10" fontName="Times New Roman" fontSize="8.0">
+			<expression><![CDATA[$P{nature_other_specify1}]]></expression>
+		</element>
+		<element kind="textField" uuid="cf35b785-6eaf-4bda-aa3c-d92cea971a2b" x="267" y="231" width="106" height="10" fontName="Times New Roman" fontSize="8.0">
+			<expression><![CDATA[$P{tools_other_tools1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="159126ae-11df-4979-8fc2-f4ed298402c4" x="478" y="294" width="92" height="10" fontName="Times New Roman" fontSize="8.0">
+			<expression><![CDATA[$P{hazard_other_hazard1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="acdae2d8-e875-4f1d-82ae-4d5e07661d6e" x="354" y="560" width="92" height="10" fontName="Times New Roman" fontSize="8.0">
+			<expression><![CDATA[$P{hazard_other_prefire1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d9c86778-b66a-4f05-a6bc-4c72a8def799" x="450" y="538" width="112" height="10" fontName="Times New Roman" fontSize="8.0">
+			<expression><![CDATA[$P{hazard_protective_suit1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="bb79392c-7e0b-4279-b8e1-d2ba65e5b2fc" x="489" y="650" width="40" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_date_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="fcc2e74d-49dd-42ba-9b8a-668372ae9314" x="489" y="660" width="40" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_date_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="aab44607-d9e7-409d-a1d4-1d9cb568c994" x="489" y="670" width="40" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_date_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="367deb5d-1128-4d74-856e-46215f2262ea" x="489" y="680" width="40" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_date_4}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="94be32bc-ed7c-4b4f-8d60-3b0886e31f7f" x="489" y="690" width="40" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_date_5}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="2569d2cb-0fcc-4ded-a7c3-c87d10e0a937" x="489" y="701" width="40" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{signatory_date_6}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="textField" uuid="b6951024-8d5b-4a6e-b65c-892d50691d74" x="462" y="741" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_date_1}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="09fc0be7-2e17-40c6-9b2d-2eb7743d25a6" x="462" y="751" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_date_2}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="00ff7764-bb54-4922-9afc-8a702af1b2ea" x="462" y="761" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{approval_date_3}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="7494157d-df4c-4ff6-a9be-7ed6ddc5e09b" x="36" y="362" width="151" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_isolated_blinded_tag_nos_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="017d6342-e292-4c4f-8259-c87a7b679822" x="36" y="419" width="149" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_electrical_isolation_restoration_tag_nos_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2cedfcb0-7510-4a31-b6ac-b87f80403641" x="36" y="440" width="150" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_radioactive_source_isolated_tag_nos_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="d4b55c31-a426-4405-a598-6e3e5bd7b135" x="148" y="465" width="43" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_compliance_check_sheet_no_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="bd0dda5c-9c6a-4e6e-92a2-52badbead126" x="278" y="400" width="86" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_excavation_clearance_obtained_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b7ce97b4-b45c-4d9e-9236-904317ea7bd5" x="274" y="422" width="98" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_ladders_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="a0bc1703-97b2-4839-b235-2ad7566abac6" x="274" y="445" width="99" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_scaffolding_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="2db8d41b-2f93-455c-8d1b-a7f0deeb348b" x="315" y="469" width="57" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_risk_assessment_sheet_no_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="50799a1a-3b5d-46c5-8f54-b5193bc6845d" x="457" y="415" width="103" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_attendant_firewatch_permit_holder_required_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="e0d0fe3f-76ba-4a1d-93de-3b01d9e16adc" x="424" y="426" width="103" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_attendant_firewatch_permit_holder_required_b}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="c35791d3-19a6-446b-b875-5b76ba2c2759" x="424" y="436" width="103" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_attendant_firewatch_permit_holder_required_c}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="66e7442d-a7c8-4a63-a5f0-631f3ea04697" x="442" y="476" width="122" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_others_specify_a}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="7689472d-4c44-4e2b-bd1c-32826aa4ecdb" x="100" y="500" width="454" height="10" fontName="Times New Roman" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{fadditionalInstructions}]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="b6a9f83f-9621-4e35-9ed4-8c8a52248816" x="239" y="41" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_cold_work}]]></expression>
+		</element>
+		<element kind="textField" uuid="a28bace1-d1e5-45be-a38b-3edc1e0d2845" x="239" y="56" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_confined_space}]]></expression>
+		</element>
+		<element kind="textField" uuid="143b66ac-a540-46d1-bb27-4ef3125b5066" x="350" y="41" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_light_hot_work}]]></expression>
+		</element>
+		<element kind="textField" uuid="1913265b-725f-4c21-98ae-3fb7cb485da8" x="452" y="41" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_heavy_hot_work}]]></expression>
+		</element>
+		<element kind="textField" uuid="e9157561-7a02-4fa9-b935-f52d0b89bb7c" x="452" y="56" width="15" height="11" fontName="DejaVu Sans" fontSize="8.0" blankWhenNull="true">
+			<expression><![CDATA[$P{prep_line_break}]]></expression>
+		</element>
+		<property name="com.jaspersoft.studio.layout"/>
+	</title>
+</jasperReport>

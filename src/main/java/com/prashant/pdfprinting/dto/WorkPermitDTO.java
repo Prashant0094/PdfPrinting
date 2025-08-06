@@ -26,23 +26,16 @@ public class WorkPermitDTO {
     private int approver2;
     private int approver3;
     private int assignedIssuer;
+    private String fadditionalInstructions;
 
     private SectionC sectionC;
     private SectionD sectionD;
     private SectionE sectionE;
     private SectionG sectionG;
-    private SectionF sectionF;
-
     private List<SectionH> sectionH;
-    private List<SectionK> sectionK;
     private List<SectionI> sectionI;
-    
-    @Data
-    public static class SectionF {
-        private int id;
-        private String equipmentPreparation;
-        private String otherPreparation;
-    }
+    private List<SectionK> sectionK;
+    private List<SectionF> sectionF;
 
 
     @Data
@@ -68,6 +61,16 @@ public class WorkPermitDTO {
     }
 
     @Data
+    public static class SectionF {
+        private int id;
+        private String description;
+        private Boolean isChecked;
+        private String inputTextA;
+        private String inputTextB;
+        private String inputTextC;
+    }
+
+    @Data
     public static class SectionG {
         private int id;
         private String preFire;
@@ -75,7 +78,6 @@ public class WorkPermitDTO {
         private int specialGloves;
         private String protectiveSuit;
     }
-
     @Data
     public static class SectionH {
         private int id;
@@ -83,6 +85,15 @@ public class WorkPermitDTO {
         private String result;
         private LocalDateTime dateTime;
         private String initials;
+        private String sign;
+    }
+
+    @Data
+    public static class SectionI {
+        private int id;
+        private String role;
+        private String name;
+        private LocalDateTime dateTime;
         private String sign;
     }
 
@@ -96,13 +107,4 @@ public class WorkPermitDTO {
         private String sign;
     }
 
-    @Data
-    public static class SectionI {
-        private int id;
-        private String role;
-        private String name;
-        private LocalDateTime dateTime;
-        private String sign;
-    }
 }
-

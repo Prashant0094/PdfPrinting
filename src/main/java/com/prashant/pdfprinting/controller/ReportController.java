@@ -19,9 +19,11 @@ import com.prashant.pdfprinting.dto.Appendix1DTO;
 import com.prashant.pdfprinting.dto.Appendix2DTO;
 import com.prashant.pdfprinting.dto.Appendix3DTO;
 import com.prashant.pdfprinting.dto.GasCuttingDTO;
+import com.prashant.pdfprinting.dto.HitraDTO;
 import com.prashant.pdfprinting.dto.LmraDTO;
 import com.prashant.pdfprinting.dto.ToolBoxTalkDTO;
 import com.prashant.pdfprinting.dto.WeldingSafetyDTO;
+import com.prashant.pdfprinting.dto.WorkPermitDTO;
 import com.prashant.pdfprinting.flattner.JsonFlattener;
 import com.prashant.pdfprinting.service.ReportService;
 
@@ -200,6 +202,41 @@ public class ReportController {
                 .contentType(MediaType.APPLICATION_PDF)
                 .body(pdf);
     }
+    @GetMapping("/work-permit")
+    public ResponseEntity<byte[]> generateWorkPermitPdf() throws Exception {
+        InputStream is = getClass().getResourceAsStream("/WorkPermitSample.json");
+        if (is == null) {
+            throw new FileNotFoundException("WorkPermitSample.json not found in resources.");
+        }
+
+        WorkPermitDTO dto = objectMapper.readValue(is, WorkPermitDTO.class);
+
+        byte[] pdf = reportService.generateWorkPermitPdf(dto);
+
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=work_permit.pdf")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
+    }
+    
+    @GetMapping("/hitra")
+    public ResponseEntity<byte[]> generateHitraReport() throws Exception {
+
+        InputStream is = getClass().getResourceAsStream("/hitra.json");
+        if (is == null) throw new RuntimeException("Where is hitrademo.json? again?");
+
+        HitraDTO dto = objectMapper.readValue(is, HitraDTO.class);
+
+        Map<String, Object> params = JsonFlattener.flatten(dto);
+        byte[] pdf = reportService.generateHitraPdf(dto, params);
+
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=hitra.pdf")
+                .contentType(MediaType.APPLICATION_PDF)
+                .body(pdf);
+    }
+
+
 
 }
 

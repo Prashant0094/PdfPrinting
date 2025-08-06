@@ -4,12 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
@@ -20,6 +16,7 @@ import com.prashant.pdfprinting.dto.Appendix1DTO;
 import com.prashant.pdfprinting.dto.Appendix2DTO;
 import com.prashant.pdfprinting.dto.Appendix3DTO;
 import com.prashant.pdfprinting.dto.GasCuttingDTO;
+import com.prashant.pdfprinting.dto.HitraDTO;
 import com.prashant.pdfprinting.dto.LmraDTO;
 import com.prashant.pdfprinting.dto.ToolBoxTalkDTO;
 import com.prashant.pdfprinting.dto.WeldingSafetyDTO;
@@ -162,5 +159,34 @@ public class ReportService {
         JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
         return JasperExportManager.exportReportToPdf(print);
     }
+	public byte[] generateWorkPermitPdf(WorkPermitDTO dto) throws JRException, IOException {
+
+	    Map<String, Object> params = JsonFlattener.flatten(dto);
+
+	    InputStream template = getClass().getResourceAsStream("/WorkPermitFront-copy.jrxml");
+	    if (template == null) {
+	        throw new FileNotFoundException("WorkPermitFront.jrxml template not found in resources.");
+	    }
+
+	    JasperReport report = JasperCompileManager.compileReport(template);
+
+	    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(
+	        dto.getSectionK() != null && !dto.getSectionK().isEmpty() ? dto.getSectionK() : List.of(new Object())
+	    );
+
+	    JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
+	    return JasperExportManager.exportReportToPdf(print);
+	}
+	public byte[] generateHitraPdf(HitraDTO dto, Map<String, Object> params) throws JRException, IOException {
+	    InputStream template = getClass().getResourceAsStream("/Hitra.jrxml");
+	    JasperReport report = JasperCompileManager.compileReport(template);
+
+	    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(dto.getSubTasks());
+	    JasperPrint print = JasperFillManager.fillReport(report, params, dataSource);
+
+	    return JasperExportManager.exportReportToPdf(print);
+	}
+
+
 	
 }
